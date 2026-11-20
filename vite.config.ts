@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
-import { handleApiRequest } from './server/apiRouter.js';
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -14,6 +13,8 @@ export default defineConfig({
         server.middlewares.use(async (req, res, next) => {
           if (req.url && req.url.startsWith('/api/')) {
             try {
+              // Lazy-load API router only during dev server execution so production build never requires node:sqlite
+              const { handleApiRequest } = await import('./server/apiRouter.js');
               const handled = await handleApiRequest(req, res);
               if (!handled) next();
             } catch (err) {

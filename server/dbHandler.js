@@ -1,93 +1,106 @@
 // @ts-check
-import { DatabaseSync } from 'node:sqlite';
+import { createRequire } from 'node:module';
 import fs from 'node:fs';
 import path from 'node:path';
 
-const dbPath = path.join(process.cwd(), 'campus_wayfinder.db');
-const db = new DatabaseSync(dbPath);
+const require = createRequire(import.meta.url);
 
-// Verify tables exist
-db.exec(`
-  CREATE TABLE IF NOT EXISTS campus_locations (
-    id TEXT PRIMARY KEY,
-    name TEXT NOT NULL,
-    exact_name TEXT NOT NULL,
-    category TEXT NOT NULL,
-    subcategory TEXT,
-    latitude REAL NOT NULL,
-    longitude REAL NOT NULL,
-    description TEXT,
-    verification_status TEXT,
-    geographical_area TEXT,
-    nearby_landmarks TEXT,
-    is_inside_campus INTEGER DEFAULT 1,
-    created_at TEXT,
-    updated_at TEXT
-  );
+let db = null;
+let isSqliteAvailable = false;
 
-  CREATE TABLE IF NOT EXISTS building_entrances (
-    id TEXT PRIMARY KEY,
-    building_id TEXT NOT NULL,
-    name TEXT NOT NULL,
-    entrance_type TEXT NOT NULL,
-    latitude REAL NOT NULL,
-    longitude REAL NOT NULL,
-    is_preferred INTEGER DEFAULT 0,
-    is_restricted INTEGER DEFAULT 0,
-    is_available INTEGER DEFAULT 1,
-    description TEXT,
-    updated_at TEXT
-  );
+try {
+  const sqlite = require('node:sqlite');
+  if (sqlite && sqlite.DatabaseSync) {
+    const dbPath = path.join(process.cwd(), 'campus_wayfinder.db');
+    db = new sqlite.DatabaseSync(dbPath);
+    isSqliteAvailable = true;
 
-  CREATE TABLE IF NOT EXISTS campus_gates (
-    id TEXT PRIMARY KEY,
-    name TEXT NOT NULL,
-    category TEXT NOT NULL,
-    latitude REAL NOT NULL,
-    longitude REAL NOT NULL,
-    gate_type TEXT NOT NULL DEFAULT 'entry_exit',
-    access_type TEXT NOT NULL DEFAULT 'both',
-    description TEXT,
-    updated_at TEXT
-  );
+    // Verify tables exist
+    db.exec(`
+      CREATE TABLE IF NOT EXISTS campus_locations (
+        id TEXT PRIMARY KEY,
+        name TEXT NOT NULL,
+        exact_name TEXT NOT NULL,
+        category TEXT NOT NULL,
+        subcategory TEXT,
+        latitude REAL NOT NULL,
+        longitude REAL NOT NULL,
+        description TEXT,
+        verification_status TEXT,
+        geographical_area TEXT,
+        nearby_landmarks TEXT,
+        is_inside_campus INTEGER DEFAULT 1,
+        created_at TEXT,
+        updated_at TEXT
+      );
 
-  CREATE TABLE IF NOT EXISTS building_gate_relationships (
-    id TEXT PRIMARY KEY,
-    building_id TEXT NOT NULL,
-    preferred_gate_id TEXT NOT NULL,
-    preferred_entrance_id TEXT,
-    approach_notes TEXT,
-    updated_at TEXT
-  );
+      CREATE TABLE IF NOT EXISTS building_entrances (
+        id TEXT PRIMARY KEY,
+        building_id TEXT NOT NULL,
+        name TEXT NOT NULL,
+        entrance_type TEXT NOT NULL,
+        latitude REAL NOT NULL,
+        longitude REAL NOT NULL,
+        is_preferred INTEGER DEFAULT 0,
+        is_restricted INTEGER DEFAULT 0,
+        is_available INTEGER DEFAULT 1,
+        description TEXT,
+        updated_at TEXT
+      );
 
-  CREATE TABLE IF NOT EXISTS location_change_history (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    action_type TEXT NOT NULL,
-    entity_id TEXT NOT NULL,
-    entity_type TEXT NOT NULL,
-    previous_data TEXT,
-    new_data TEXT,
-    editor_name TEXT NOT NULL,
-    timestamp TEXT NOT NULL,
-    undone INTEGER DEFAULT 0
-  );
+      CREATE TABLE IF NOT EXISTS campus_gates (
+        id TEXT PRIMARY KEY,
+        name TEXT NOT NULL,
+        category TEXT NOT NULL,
+        latitude REAL NOT NULL,
+        longitude REAL NOT NULL,
+        gate_type TEXT NOT NULL DEFAULT 'entry_exit',
+        access_type TEXT NOT NULL DEFAULT 'both',
+        description TEXT,
+        updated_at TEXT
+      );
 
-  CREATE TABLE IF NOT EXISTS event_locations (
-    id TEXT PRIMARY KEY,
-    event_name TEXT NOT NULL,
-    location_name TEXT NOT NULL,
-    category TEXT NOT NULL DEFAULT 'Campus Event',
-    latitude REAL NOT NULL,
-    longitude REAL NOT NULL,
-    start_time TEXT NOT NULL,
-    end_time TEXT NOT NULL,
-    description TEXT,
-    status TEXT DEFAULT 'active',
-    created_at TEXT,
-    updated_at TEXT,
-    editor_name TEXT
-  );
-`);
+      CREATE TABLE IF NOT EXISTS building_gate_relationships (
+        id TEXT PRIMARY KEY,
+        building_id TEXT NOT NULL,
+        preferred_gate_id TEXT NOT NULL,
+        preferred_entrance_id TEXT,
+        approach_notes TEXT,
+        updated_at TEXT
+      );
+
+      CREATE TABLE IF NOT EXISTS location_change_history (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        action_type TEXT NOT NULL,
+        entity_id TEXT NOT NULL,
+        entity_type TEXT NOT NULL,
+        previous_data TEXT,
+        new_data TEXT,
+        editor_name TEXT NOT NULL,
+        timestamp TEXT NOT NULL,
+        undone INTEGER DEFAULT 0
+      );
+
+      CREATE TABLE IF NOT EXISTS event_locations (
+        id TEXT PRIMARY KEY,
+        event_name TEXT NOT NULL,
+        location_name TEXT NOT NULL,
+        category TEXT NOT NULL DEFAULT 'Campus Event',
+        latitude REAL NOT NULL,
+        longitude REAL NOT NULL,
+        start_time TEXT NOT NULL,
+        end_time TEXT NOT NULL,
+        description TEXT,
+        status TEXT DEFAULT 'active',
+        created_at TEXT,
+        updated_at TEXT,
+        editor_name TEXT
+      );
+    `);
+  }
+} catch (err) {
+  console.warn('[DB Handler] node:sqlite not available on this Node runtime (' + process.version + '). Operating in resilient JSON file fallback mode.');
+}
 
 export function getLocations() {
   const rows = db.prepare('SELECT * FROM campus_locations ORDER BY name ASC').all();
