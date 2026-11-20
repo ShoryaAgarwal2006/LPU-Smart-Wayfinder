@@ -1,0 +1,2115 @@
+[
+  {
+    "id": "GATE_01_MAIN",
+    "exactName": "Gate 1 (Main Entrance)",
+    "name": "Gate 1 (Main Entrance)",
+    "category": "Campus Gates",
+    "subcategory": "Primary Highway Entrance",
+    "latitude": 31.25952,
+    "longitude": 75.706476,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Gate+1+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJk1t0zPTRDzkR8hG4X3NfH7T",
+    "geometryType": "gate_point",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "North (GT Road / NH-44)",
+    "nearbyLandmarks": [
+      "Railway Overpass",
+      "Uni Hospital",
+      "Block 1",
+      "Gate 1 Security"
+    ],
+    "sourceReferences": [
+      "Google Maps Main Entrance Landmark",
+      "OpenStreetMap Way 1551038389",
+      "LPU Campus Security & Traffic Manual"
+    ],
+    "notes": "Primary campus entrance facing Grand Trunk Road (NH-44) with multi-lane vehicular, bus transit, and RFID security gates.",
+    "googlePlaceId": "ChIJk1t0zPTRDzkR8hG4X3NfH7T",
+    "formattedAddress": "Gate 1 (Main Entrance), Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "GATE_02",
+    "exactName": "Gate 2",
+    "name": "Gate 2",
+    "category": "Campus Gates",
+    "subcategory": "Auxiliary Highway Entrance",
+    "latitude": 31.258,
+    "longitude": 75.7061,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Gate+2+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJl2u1yPTRDzkR9iH5X4NfH8U",
+    "geometryType": "gate_point",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "North-East (GT Road)",
+    "nearbyLandmarks": [
+      "GT Road",
+      "Block 2",
+      "Faculty Residences"
+    ],
+    "sourceReferences": [
+      "Google Maps Gate 2",
+      "LPU Campus Security Guidelines"
+    ],
+    "notes": "Eastern auxiliary entrance off GT Road for campus transit alleviation and passenger drop-off.",
+    "googlePlaceId": "ChIJl2u1yPTRDzkR9iH5X4NfH8U",
+    "formattedAddress": "Gate 2, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "GATE_03",
+    "exactName": "Gate 3",
+    "name": "Gate 3",
+    "category": "Campus Gates",
+    "subcategory": "Logistics & Commercial Gate",
+    "latitude": 31.257,
+    "longitude": 75.7058,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Gate+3+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJm3v2xPTRDzkR0jI6X5NfH9V",
+    "geometryType": "gate_point",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "North-Central (GT Road Service Road)",
+    "nearbyLandmarks": [
+      "Uni-Mall Delivery Ramp",
+      "Commercial Corridor"
+    ],
+    "sourceReferences": [
+      "Google Maps Gate 3",
+      "LPU Campus Transport Guidelines"
+    ],
+    "notes": "Commercial and logistics entrance dedicated to Uni-Mall deliveries, vendors, and maintenance transport.",
+    "googlePlaceId": "ChIJm3v2xPTRDzkR0jI6X5NfH9V",
+    "formattedAddress": "Gate 3, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_01",
+    "exactName": "Block 1",
+    "name": "Block 1",
+    "category": "Academic Blocks",
+    "subcategory": "Administrative & Founding Block",
+    "latitude": 31.258602,
+    "longitude": 75.70886,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+1+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJZ3jK9u_RDzkR3n7vD0kLPU1",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/354743583",
+    "buildingId": "BLOCK_01",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "North-East Entrance Boulevard",
+    "nearbyLandmarks": [
+      "Gate 1",
+      "Founding Quadrangle",
+      "Accounts Division"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 1",
+      "OpenStreetMap Way 354743583",
+      "LPU Historic Archive"
+    ],
+    "notes": "Historic founding building of LPU. Houses administrative headquarters, admissions verification cells, and early academic lecture halls.",
+    "googlePlaceId": "ChIJZ3jK9u_RDzkR3n7vD0kLPU1",
+    "formattedAddress": "Block 1, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_02",
+    "exactName": "Block 2",
+    "name": "Block 2",
+    "category": "Academic Blocks",
+    "subcategory": "Student Hub & Dining",
+    "latitude": 31.258,
+    "longitude": 75.7065,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+2+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ_3jK9u_RDzkR3n7vD0kLPU2",
+    "geometryType": "point_marker",
+    "buildingId": "BLOCK_02",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "North Entrance Promenade",
+    "nearbyLandmarks": [
+      "Block 1",
+      "Central Student Dining Hall",
+      "Gate 1 Boulevard"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 2",
+      "LPU Student Affairs Guidelines"
+    ],
+    "notes": "Central student hub housing campus dining halls, seminar spaces, and student orientation centers.",
+    "googlePlaceId": "ChIJ_3jK9u_RDzkR3n7vD0kLPU2",
+    "formattedAddress": "Block 2, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_03",
+    "exactName": "Block 3",
+    "name": "Block 3",
+    "category": "Academic Blocks",
+    "subcategory": "Healthcare & Pharmacy",
+    "latitude": 31.25762,
+    "longitude": 75.707268,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+3+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.25762,75.707268",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/354830243",
+    "buildingId": "BLOCK_03",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "North-East Medical Sector",
+    "nearbyLandmarks": [
+      "Uni Hospital",
+      "Uni Pharmacy",
+      "Block 4"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 3",
+      "OpenStreetMap Way 354830243",
+      "LPU Health Care Records"
+    ],
+    "notes": "Houses the 24/7 University Hospital, emergency outpatient department, and School of Pharmaceutical Sciences.",
+    "googlePlaceId": null,
+    "formattedAddress": "Block 3, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "MED_UNI_HOSPITAL",
+    "exactName": "Uni Hospital",
+    "name": "Uni Hospital",
+    "category": "Medical Facilities",
+    "subcategory": "24/7 Multi-Specialty Hospital",
+    "latitude": 31.25762,
+    "longitude": 75.707268,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Uni+Hospital+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.25762,75.707268",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/354830243",
+    "buildingId": "BLOCK_03",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "North-East (Inside Gate 1)",
+    "nearbyLandmarks": [
+      "Gate 1",
+      "Block 3",
+      "Ambulance Bay"
+    ],
+    "sourceReferences": [
+      "Google Maps: Uni-Hospital LPU",
+      "LPU Health Services Guide",
+      "OpenStreetMap Way 354830243"
+    ],
+    "notes": "Full-service 24/7 university medical hospital, trauma care unit, diagnostic pathology lab, and ambulance depot.",
+    "googlePlaceId": null,
+    "formattedAddress": "Uni Hospital, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_04",
+    "exactName": "Block 4",
+    "name": "Block 4",
+    "category": "Academic Blocks",
+    "subcategory": "Classrooms & Faculty Offices",
+    "latitude": 31.2574,
+    "longitude": 75.7075,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+4+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.2574,75.7075",
+    "geometryType": "point_marker",
+    "buildingId": "BLOCK_04",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "North-East Academic Wing",
+    "nearbyLandmarks": [
+      "Block 3",
+      "Pharmacy Medicinal Garden"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 4",
+      "LPU Academic Venue Index"
+    ],
+    "notes": "Multi-storey academic block with smart lecture theatres and faculty consultation cubicles.",
+    "googlePlaceId": null,
+    "formattedAddress": "Block 4, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "STAFF_APT_A",
+    "exactName": "Faculty Apartments",
+    "name": "Faculty Apartments",
+    "category": "Apartments & Staff Residences",
+    "subcategory": "Faculty Housing",
+    "latitude": 31.26052,
+    "longitude": 75.706874,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Staff+Apartments+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.26052,75.706874",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422550528",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Northern Residential Zone",
+    "nearbyLandmarks": [
+      "Gate 1",
+      "North Campus Perimeter"
+    ],
+    "sourceReferences": [
+      "Google Maps: Faculty Residences",
+      "OpenStreetMap Way 422550528"
+    ],
+    "notes": "Multi-storey residential towers providing on-campus housing for faculty and senior research fellows.",
+    "googlePlaceId": null,
+    "formattedAddress": "Faculty Apartments, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "STAFF_APT_B",
+    "exactName": "Staff Apartments",
+    "name": "Staff Apartments",
+    "category": "Apartments & Staff Residences",
+    "subcategory": "Staff Housing",
+    "latitude": 31.260407,
+    "longitude": 75.707338,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Staff+Quarters+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.260407,75.707338",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/426285004",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Northern Residential Zone",
+    "nearbyLandmarks": [
+      "Faculty Apartments",
+      "North-East Gardens"
+    ],
+    "sourceReferences": [
+      "Google Maps: Staff Quarters",
+      "OpenStreetMap Way 426285004"
+    ],
+    "notes": "Residential quarters for university administrative and technical campus staff.",
+    "googlePlaceId": null,
+    "formattedAddress": "Staff Apartments, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_36",
+    "exactName": "Block 36",
+    "name": "Block 36",
+    "category": "Academic Blocks",
+    "subcategory": "Electronics & Electrical Engineering",
+    "latitude": 31.257892,
+    "longitude": 75.706885,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+36+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJf4oI2PTRDzkR5mM9X3NfH7X",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/354755644",
+    "buildingId": "BLOCK_36",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "North-Central Academic Spine",
+    "nearbyLandmarks": [
+      "Central Library",
+      "Division of Admissions",
+      "Block 34"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 36",
+      "OpenStreetMap Way 354755644"
+    ],
+    "notes": "Houses School of Electronics & Electrical Engineering, central admissions division, and examination verification halls.",
+    "googlePlaceId": "ChIJf4oI2PTRDzkR5mM9X3NfH7X",
+    "formattedAddress": "Block 36, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_37",
+    "exactName": "Central Library",
+    "name": "Central Library",
+    "category": "Academic Blocks",
+    "subcategory": "University Main Library",
+    "latitude": 31.2575,
+    "longitude": 75.7068,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Central+Library+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ57u8L_XRDzkRh2E6XyNfH4U",
+    "geometryType": "point_marker",
+    "buildingId": "BLOCK_37",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Academic Spine",
+    "nearbyLandmarks": [
+      "Block 34",
+      "Block 36",
+      "Shanti Devi Mittal Auditorium"
+    ],
+    "sourceReferences": [
+      "Google Maps: Central Library",
+      "LPU Library Directorate"
+    ],
+    "notes": "Multi-level Central University Library featuring extensive print book collections, cyber reading halls, and dissertation archives.",
+    "googlePlaceId": "ChIJ57u8L_XRDzkRh2E6XyNfH4U",
+    "formattedAddress": "Central Library, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_35",
+    "exactName": "Block 35",
+    "name": "Block 35",
+    "category": "Academic Blocks",
+    "subcategory": "Auditorium Complex",
+    "latitude": 31.256525,
+    "longitude": 75.705654,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+35+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN9t0y_TRDzkRsSg7_W7G9d4",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437902",
+    "buildingId": "BLOCK_35",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Promenade",
+    "nearbyLandmarks": [
+      "Block 34",
+      "Robo Park",
+      "Block 32"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 35",
+      "OpenStreetMap Way 422437902"
+    ],
+    "notes": "Houses the premier Shanti Devi Mittal Auditorium for symposia, theatre productions, and international guest lectures.",
+    "googlePlaceId": "ChIJN9t0y_TRDzkRsSg7_W7G9d4",
+    "formattedAddress": "Block 35, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "AUD_SHANTI_DEVI",
+    "exactName": "Shanti Devi Mittal Auditorium",
+    "name": "Shanti Devi Mittal Auditorium",
+    "category": "Auditoriums & Arenas",
+    "subcategory": "Major University Auditorium",
+    "latitude": 31.256525,
+    "longitude": 75.705654,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Shanti+Devi+Mittal+Auditorium+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.256525,75.705654",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437902",
+    "buildingId": "BLOCK_35",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Promenade",
+    "nearbyLandmarks": [
+      "Block 35",
+      "Robo Park LPU"
+    ],
+    "sourceReferences": [
+      "Google Maps: Shanti Devi Mittal Auditorium",
+      "OpenStreetMap Way 422437902"
+    ],
+    "notes": "State-of-the-art air-conditioned auditorium with theatrical stage, acoustical panelling, and seating for 2,500 delegates.",
+    "googlePlaceId": null,
+    "formattedAddress": "Shanti Devi Mittal Auditorium, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_34",
+    "exactName": "Block 34",
+    "name": "Block 34",
+    "category": "Academic Blocks",
+    "subcategory": "Computer Science & Engineering",
+    "latitude": 31.257051,
+    "longitude": 75.7057,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+34+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJcQ_CSE_BLOCK34_LPU",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437906",
+    "buildingId": "BLOCK_34",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Academic Spine",
+    "nearbyLandmarks": [
+      "Block 33",
+      "Block 32",
+      "Central Library"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 34",
+      "OpenStreetMap Way 422437906"
+    ],
+    "notes": "Iconic hub for School of Computer Science & Engineering, software innovation centres, and university computing server rooms.",
+    "googlePlaceId": "ChIJcQ_CSE_BLOCK34_LPU",
+    "formattedAddress": "Block 34, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_33",
+    "exactName": "Block 33",
+    "name": "Block 33",
+    "category": "Academic Blocks",
+    "subcategory": "IT & Computing Labs",
+    "latitude": 31.256864,
+    "longitude": 75.705693,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+33+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.256864,75.705693",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437908",
+    "buildingId": "BLOCK_33",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Academic Spine",
+    "nearbyLandmarks": [
+      "Block 34",
+      "Block 32",
+      "Computer Labs"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 33",
+      "OpenStreetMap Way 422437908"
+    ],
+    "notes": "Dedicated multi-floor computing and networking laboratories.",
+    "googlePlaceId": null,
+    "formattedAddress": "Block 33, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_32",
+    "exactName": "Block 32",
+    "name": "Block 32",
+    "category": "Academic Blocks",
+    "subcategory": "Mittal School of Business",
+    "latitude": 31.256922,
+    "longitude": 75.705431,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+32+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJd2mG3PTRDzkR4kL8X2NfH6W",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437904",
+    "buildingId": "BLOCK_32",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Academic Spine",
+    "nearbyLandmarks": [
+      "Block 31",
+      "Block 34",
+      "MSB Courtyard"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 32",
+      "OpenStreetMap Way 422437904"
+    ],
+    "notes": "Mittal School of Business. Houses MBA and BBA lecture theatres, corporate incubation hubs, and executive suites.",
+    "googlePlaceId": "ChIJd2mG3PTRDzkR4kL8X2NfH6W",
+    "formattedAddress": "Block 32, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_31",
+    "exactName": "Block 31",
+    "name": "Block 31",
+    "category": "Academic Blocks",
+    "subcategory": "Seminar & Tutorial Complex",
+    "latitude": 31.2572,
+    "longitude": 75.7052,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+31+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.2572,75.7052",
+    "geometryType": "point_marker",
+    "buildingId": "BLOCK_31",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Academic Spine",
+    "nearbyLandmarks": [
+      "Block 32",
+      "Block 30"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 31",
+      "LPU Seminar Directorate"
+    ],
+    "notes": "Seminar complex, executive meeting halls, and management tutorial rooms.",
+    "googlePlaceId": null,
+    "formattedAddress": "Block 31, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_30",
+    "exactName": "Block 30",
+    "name": "Block 30",
+    "category": "Academic Blocks",
+    "subcategory": "Engineering Academic Block",
+    "latitude": 31.256865,
+    "longitude": 75.704719,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+30+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.256865,75.704719",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437900",
+    "buildingId": "BLOCK_30",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Academic Spine",
+    "nearbyLandmarks": [
+      "Block 29",
+      "Block 31",
+      "Engineering Courtyard"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 30",
+      "OpenStreetMap Way 422437900"
+    ],
+    "notes": "Engineering academic block connected via skywalk bridge corridors to adjacent blocks.",
+    "googlePlaceId": null,
+    "formattedAddress": "Block 30, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_29",
+    "exactName": "Block 29",
+    "name": "Block 29",
+    "category": "Academic Blocks",
+    "subcategory": "Examination Division & Student Services",
+    "latitude": 31.256633,
+    "longitude": 75.704644,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+29+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.256633,75.704644",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437901",
+    "buildingId": "BLOCK_29",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Academic Spine",
+    "nearbyLandmarks": [
+      "Block 28",
+      "Block 30",
+      "Student Support Cell"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 29",
+      "OpenStreetMap Way 422437901"
+    ],
+    "notes": "Division of Examination, transcript processing counter, and student welfare helpdesk.",
+    "googlePlaceId": null,
+    "formattedAddress": "Block 29, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_28",
+    "exactName": "Block 28",
+    "name": "Block 28",
+    "category": "Academic Blocks",
+    "subcategory": "Lecture Theatres",
+    "latitude": 31.2566,
+    "longitude": 75.7046,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+28+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.2566,75.7046",
+    "geometryType": "point_marker",
+    "buildingId": "BLOCK_28",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Academic Spine",
+    "nearbyLandmarks": [
+      "Block 27",
+      "Block 29"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 28",
+      "LPU Timetable Venue Records"
+    ],
+    "notes": "Core academic lecture theatres and smart classrooms.",
+    "googlePlaceId": null,
+    "formattedAddress": "Block 28, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_27",
+    "exactName": "Block 27",
+    "name": "Block 27",
+    "category": "Academic Blocks",
+    "subcategory": "Humanities & Languages",
+    "latitude": 31.2567,
+    "longitude": 75.7048,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+27+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.2567,75.7048",
+    "geometryType": "point_marker",
+    "buildingId": "BLOCK_27",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Academic Spine",
+    "nearbyLandmarks": [
+      "Block 26",
+      "Block 28"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 27",
+      "LPU Humanities Department Guide"
+    ],
+    "notes": "School of Humanities, languages, and social science faculties.",
+    "googlePlaceId": null,
+    "formattedAddress": "Block 27, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_26",
+    "exactName": "Block 26",
+    "name": "Block 26",
+    "category": "Academic Blocks",
+    "subcategory": "General Classrooms",
+    "latitude": 31.2568,
+    "longitude": 75.705,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+26+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.2568,75.705",
+    "geometryType": "point_marker",
+    "buildingId": "BLOCK_26",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Academic Spine",
+    "nearbyLandmarks": [
+      "Block 25",
+      "Block 27"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 26",
+      "LPU Academic Guide"
+    ],
+    "notes": "Multi-level academic teaching block.",
+    "googlePlaceId": null,
+    "formattedAddress": "Block 26, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_25",
+    "exactName": "Block 25",
+    "name": "Block 25",
+    "category": "Academic Blocks",
+    "subcategory": "Major Academic Block",
+    "latitude": 31.256066,
+    "longitude": 75.703934,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+25+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.256066,75.703934",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437899",
+    "buildingId": "BLOCK_25",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "West-Central Academic Spine",
+    "nearbyLandmarks": [
+      "Unipolis",
+      "Block 26",
+      "Uni-Mall Walkway"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 25",
+      "OpenStreetMap Way 422437899"
+    ],
+    "notes": "Major 8-storey academic block with 72-seater lecture rooms, tutorial halls, and seminar auditoriums.",
+    "googlePlaceId": null,
+    "formattedAddress": "Block 25, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_38",
+    "exactName": "Block 38",
+    "name": "Block 38",
+    "category": "Academic Blocks",
+    "subcategory": "Computer Applications & AI Hub",
+    "latitude": 31.256288,
+    "longitude": 75.704666,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+38+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.256288,75.704666",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437898",
+    "buildingId": "BLOCK_38",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "West-Central Academic Sector",
+    "nearbyLandmarks": [
+      "Block 25",
+      "Uni-Mall",
+      "Block 29"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 38",
+      "OpenStreetMap Way 422437898"
+    ],
+    "notes": "Houses School of Computer Applications, artificial intelligence incubators, and machine learning labs.",
+    "googlePlaceId": null,
+    "formattedAddress": "Block 38, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_DESIGN",
+    "exactName": "Block Design",
+    "name": "Block Design",
+    "category": "Academic Blocks",
+    "subcategory": "School of Design & Fashion Technology",
+    "latitude": 31.256652,
+    "longitude": 75.707028,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=School+of+Design+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.256652,75.707028",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/425717552",
+    "buildingId": "BLOCK_DESIGN",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "East-Central Creative Arts Zone",
+    "nearbyLandmarks": [
+      "Central Library",
+      "Ayushya Vatika",
+      "Block 36"
+    ],
+    "sourceReferences": [
+      "Google Maps: School of Design",
+      "OpenStreetMap Way 425717552"
+    ],
+    "notes": "School of Design & Fashion Technology, digital animation studios, product design labs, and fashion ramps.",
+    "googlePlaceId": null,
+    "formattedAddress": "Block Design, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_19",
+    "exactName": "Block 19",
+    "name": "Block 19",
+    "category": "Academic Blocks",
+    "subcategory": "Basic Sciences",
+    "latitude": 31.2562,
+    "longitude": 75.7062,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+19+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.2562,75.7062",
+    "geometryType": "point_marker",
+    "buildingId": "BLOCK_19",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Academic Spine",
+    "nearbyLandmarks": [
+      "Central Lawn",
+      "Block Design",
+      "Block 15"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 19",
+      "LPU Science Faculty Directory"
+    ],
+    "notes": "Houses foundational chemistry, physics, and life science lecture halls.",
+    "googlePlaceId": null,
+    "formattedAddress": "Block 19, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_15",
+    "exactName": "Uni-Mall",
+    "name": "Uni-Mall",
+    "category": "Academic Blocks",
+    "subcategory": "Commercial Mall & Utilities",
+    "latitude": 31.255716,
+    "longitude": 75.704998,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Uni+Mall+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ743c3fTRDzkR8gqX0mXzWps",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437885",
+    "buildingId": "BLOCK_15",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Student Hub",
+    "nearbyLandmarks": [
+      "Block 14",
+      "Block 25",
+      "Unipolis"
+    ],
+    "sourceReferences": [
+      "Google Maps: Uni-Mall",
+      "OpenStreetMap Way 422437885",
+      "LPU Commercial Directory"
+    ],
+    "notes": "Central commercial mall: food court, bank branches, post office, supermarket, and bookstores.",
+    "googlePlaceId": "ChIJ743c3fTRDzkR8gqX0mXzWps",
+    "formattedAddress": "Uni-Mall, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_14",
+    "exactName": "Block 14",
+    "name": "Block 14",
+    "category": "Academic Blocks",
+    "subcategory": "Student Activity Centre",
+    "latitude": 31.2555,
+    "longitude": 75.7052,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+14+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.2555,75.7052",
+    "geometryType": "point_marker",
+    "buildingId": "BLOCK_14",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Promenade",
+    "nearbyLandmarks": [
+      "Uni-Mall",
+      "Block 13"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 14",
+      "LPU Student Handbook"
+    ],
+    "notes": "Student Activity Centre, student club headquarters, and cultural event rehearsal studios.",
+    "googlePlaceId": null,
+    "formattedAddress": "Block 14, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_13",
+    "exactName": "Block 13",
+    "name": "Block 13",
+    "category": "Academic Blocks",
+    "subcategory": "Student Welfare (DSW)",
+    "latitude": 31.256,
+    "longitude": 75.7055,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+13+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.256,75.7055",
+    "geometryType": "point_marker",
+    "buildingId": "BLOCK_13",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Promenade",
+    "nearbyLandmarks": [
+      "Block 14",
+      "Uni-Mall",
+      "Block 35"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 13",
+      "LPU DSW Official Portal"
+    ],
+    "notes": "Division of Student Welfare (DSW) headquarters, youth festival coordination cell, and scholarship services.",
+    "googlePlaceId": null,
+    "formattedAddress": "Block 13, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "GATE_LAW",
+    "exactName": "Law Gate / Maheru Gate",
+    "name": "Law Gate / Maheru Gate",
+    "category": "Campus Gates",
+    "subcategory": "Western Main Campus Gateway",
+    "latitude": 31.254933,
+    "longitude": 75.700155,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Law+Gate+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.254933,75.700155",
+    "geometryType": "gate_point",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "West Campus Boundary",
+    "nearbyLandmarks": [
+      "Maheru Road",
+      "Law Gate Market",
+      "Block 55",
+      "BS-11"
+    ],
+    "sourceReferences": [
+      "Google Maps: Law Gate",
+      "OpenStreetMap Node 13894888268"
+    ],
+    "notes": "High-traffic western campus gate connecting directly to Maheru Road, private student housing, and commercial eating joints.",
+    "googlePlaceId": null,
+    "formattedAddress": "Law Gate / Maheru Gate, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_55",
+    "exactName": "Block 55",
+    "name": "Block 55",
+    "category": "Academic Blocks",
+    "subcategory": "Mechanical & Aerospace Engineering",
+    "latitude": 31.255268,
+    "longitude": 75.703312,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+55+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJg5pJ1PTRDzkR6nN0X4NfH8Y",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437890",
+    "buildingId": "BLOCK_55",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "West-Central Engineering Sector",
+    "nearbyLandmarks": [
+      "Law Gate Road",
+      "Cricket Ground",
+      "Aviation Hangar"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 55",
+      "OpenStreetMap Way 422437890"
+    ],
+    "notes": "School of Mechanical & Aerospace Engineering, automobile design garages, wind tunnel lab, and CNC machining centers.",
+    "googlePlaceId": "ChIJg5pJ1PTRDzkR6nN0X4NfH8Y",
+    "formattedAddress": "Block 55, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BS_11",
+    "exactName": "BS-11",
+    "name": "BS-11",
+    "category": "Boys Studios",
+    "subcategory": "Studio Accommodation",
+    "latitude": 31.253668,
+    "longitude": 75.70063,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Boys+Studio+11+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJp0s33PTRDzkR8vX9X5NfH9I",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422548301",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "West Campus Residential Sector",
+    "nearbyLandmarks": [
+      "Law Gate",
+      "BS-12",
+      "Boys Apartments"
+    ],
+    "sourceReferences": [
+      "Google Maps: Boys Studio 11",
+      "OpenStreetMap Way 422548301"
+    ],
+    "notes": "Air-conditioned boys studio apartments with attached pantry and study rooms.",
+    "googlePlaceId": "ChIJp0s33PTRDzkR8vX9X5NfH9I",
+    "formattedAddress": "BS-11, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BS_12",
+    "exactName": "BS-12",
+    "name": "BS-12",
+    "category": "Boys Studios",
+    "subcategory": "Studio Accommodation",
+    "latitude": 31.25388,
+    "longitude": 75.700882,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Boys+Studio+12+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJq1t44PTRDzkR9wY0X6NfH0J",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422548302",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "West Campus Residential Sector",
+    "nearbyLandmarks": [
+      "BS-11",
+      "BS-13"
+    ],
+    "sourceReferences": [
+      "Google Maps: Boys Studio 12",
+      "OpenStreetMap Way 422548302"
+    ],
+    "notes": "Studio accommodations for undergraduate and postgraduate male students.",
+    "googlePlaceId": "ChIJq1t44PTRDzkR9wY0X6NfH0J",
+    "formattedAddress": "BS-12, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BS_13",
+    "exactName": "BS-13",
+    "name": "BS-13",
+    "category": "Boys Studios",
+    "subcategory": "Studio Accommodation",
+    "latitude": 31.25366,
+    "longitude": 75.701156,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=BS+13+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJr2u55PTRDzkR0xZ1X7NfH1K",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422548308",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "West Campus Residential Sector",
+    "nearbyLandmarks": [
+      "BS-12",
+      "Cricket Ground"
+    ],
+    "sourceReferences": [
+      "Google Maps: BS-13",
+      "OpenStreetMap Way 422548308"
+    ],
+    "notes": "Modern studio residences equipped with high-speed campus fiber networking.",
+    "googlePlaceId": "ChIJr2u55PTRDzkR0xZ1X7NfH1K",
+    "formattedAddress": "BS-13, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "APT_BOYS",
+    "exactName": "Boys Apartments",
+    "name": "Boys Apartments",
+    "category": "Apartments & Staff Residences",
+    "subcategory": "Apartment Housing",
+    "latitude": 31.25342,
+    "longitude": 75.7008,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Boys+Apartments+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.25342,75.7008",
+    "geometryType": "point_marker",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "West Campus Residential Sector",
+    "nearbyLandmarks": [
+      "BS-11",
+      "Law Gate Road"
+    ],
+    "sourceReferences": [
+      "Google Maps: Boys Apartments",
+      "LPU Residence Life Manual"
+    ],
+    "notes": "Multi-room apartment suites for male senior scholars and international students.",
+    "googlePlaceId": null,
+    "formattedAddress": "Boys Apartments, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "GH_01",
+    "exactName": "GH-1",
+    "name": "GH-1",
+    "category": "Girls Hostels",
+    "subcategory": "Girls Residence",
+    "latitude": 31.254473,
+    "longitude": 75.705639,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Girls+Hostel+1+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJj4m7xPTRDzkR2pR3X9NfH3C",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437887",
+    "buildingId": "GH_01",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "East-Central Girls Residential Sector",
+    "nearbyLandmarks": [
+      "GH-2",
+      "GS-1",
+      "Ayushya Vatika"
+    ],
+    "sourceReferences": [
+      "Google Maps: Girls Hostel 1",
+      "OpenStreetMap Way 422437887"
+    ],
+    "notes": "Multi-wing girls hostel with dedicated security, central mess dining hall, indoor gym, and courtyard.",
+    "googlePlaceId": "ChIJj4m7xPTRDzkR2pR3X9NfH3C",
+    "formattedAddress": "GH-1, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "GH_02",
+    "exactName": "GH-2",
+    "name": "GH-2",
+    "category": "Girls Hostels",
+    "subcategory": "Girls Residence",
+    "latitude": 31.25425,
+    "longitude": 75.705696,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Girls+Hostel+2+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJk5n8yPTRDzkR3qS4X0NfH4D",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437888",
+    "buildingId": "GH_02",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "East-Central Girls Residential Sector",
+    "nearbyLandmarks": [
+      "GH-1",
+      "GS-2"
+    ],
+    "sourceReferences": [
+      "Google Maps: Girls Hostel 2",
+      "OpenStreetMap Way 422437888"
+    ],
+    "notes": "Secure girls hostel block with 24/7 warden control, tuck shop, and study rooms.",
+    "googlePlaceId": "ChIJk5n8yPTRDzkR3qS4X0NfH4D",
+    "formattedAddress": "GH-2, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "GS_01",
+    "exactName": "GS-1",
+    "name": "GS-1",
+    "category": "Girls Studios",
+    "subcategory": "Studio Accommodation",
+    "latitude": 31.2546,
+    "longitude": 75.706,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Girls+Studio+1+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJs3v66PTRDzkR1ya2X8NfH2L",
+    "geometryType": "point_marker",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "East-Central Girls Residential Sector",
+    "nearbyLandmarks": [
+      "GH-1",
+      "Girls Dining Mess"
+    ],
+    "sourceReferences": [
+      "Google Maps: Girls Studio 1",
+      "LPU Residence Life"
+    ],
+    "notes": "Premium studio apartment living for female students.",
+    "googlePlaceId": "ChIJs3v66PTRDzkR1ya2X8NfH2L",
+    "formattedAddress": "GS-1, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "GS_02",
+    "exactName": "GS-2",
+    "name": "GS-2",
+    "category": "Girls Studios",
+    "subcategory": "Studio Accommodation",
+    "latitude": 31.2543,
+    "longitude": 75.7063,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Girls+Studio+2+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJt4w77PTRDzkR2zb3X9NfH3M",
+    "geometryType": "point_marker",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "East-Central Girls Residential Sector",
+    "nearbyLandmarks": [
+      "GS-1",
+      "GH-2"
+    ],
+    "sourceReferences": [
+      "Google Maps: Girls Studio 2",
+      "LPU Residence Life"
+    ],
+    "notes": "Female studio accommodation with air-conditioning and study amenities.",
+    "googlePlaceId": "ChIJt4w77PTRDzkR2zb3X9NfH3M",
+    "formattedAddress": "GS-2, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "GS_03",
+    "exactName": "GS-3",
+    "name": "GS-3",
+    "category": "Girls Studios",
+    "subcategory": "Studio Accommodation",
+    "latitude": 31.254,
+    "longitude": 75.7066,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Girls+Studio+3+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJu5x88PTRDzkR30c4X0NfH4N",
+    "geometryType": "point_marker",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "East-Central Girls Residential Sector",
+    "nearbyLandmarks": [
+      "GS-2",
+      "GS-4"
+    ],
+    "sourceReferences": [
+      "Google Maps: Girls Studio 3",
+      "LPU Residence Life"
+    ],
+    "notes": "Female studio residences.",
+    "googlePlaceId": "ChIJu5x88PTRDzkR30c4X0NfH4N",
+    "formattedAddress": "GS-3, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "GS_04",
+    "exactName": "GS-4",
+    "name": "GS-4",
+    "category": "Girls Studios",
+    "subcategory": "Studio Accommodation",
+    "latitude": 31.2537,
+    "longitude": 75.7069,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Girls+Studio+4+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJv6y99PTRDzkR41d5X1NfH5O",
+    "geometryType": "point_marker",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "East-Central Girls Residential Sector",
+    "nearbyLandmarks": [
+      "GS-3",
+      "South-East Walkway"
+    ],
+    "sourceReferences": [
+      "Google Maps: Girls Studio 4",
+      "LPU Residence Life"
+    ],
+    "notes": "Female studio accommodation block.",
+    "googlePlaceId": "ChIJv6y99PTRDzkR41d5X1NfH5O",
+    "formattedAddress": "GS-4, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "UNIPOLIS",
+    "exactName": "Baldev Raj Mittal Unipolis",
+    "name": "Baldev Raj Mittal Unipolis",
+    "category": "Auditoriums & Arenas",
+    "subcategory": "Mega Amphitheatre",
+    "latitude": 31.254,
+    "longitude": 75.704,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Unipolis+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJm7lH6PTRDzkR8qM3X1NfH5V",
+    "geometryType": "point_marker",
+    "buildingId": "UNIPOLIS",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Cultural Square",
+    "nearbyLandmarks": [
+      "Uni-Mall",
+      "Block 25",
+      "Sports Complex"
+    ],
+    "sourceReferences": [
+      "Google Maps: Baldev Raj Mittal Unipolis",
+      "LPU Convocation Archives"
+    ],
+    "notes": "Massive open-air canopy amphitheatre seating up to 15,000 spectators for annual convocations, cultural festivals, and celebrity concerts.",
+    "googlePlaceId": "ChIJm7lH6PTRDzkR8qM3X1NfH5V",
+    "formattedAddress": "Baldev Raj Mittal Unipolis, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "SPORTS_COMPLEX",
+    "exactName": "Shanti Devi Mittal Indoor Stadium",
+    "name": "Shanti Devi Mittal Indoor Stadium",
+    "category": "Sports Facilities",
+    "subcategory": "Indoor Sports Arena",
+    "latitude": 31.253,
+    "longitude": 75.705,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Sports+Centre+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.253,75.705",
+    "geometryType": "point_marker",
+    "buildingId": "SPORTS_COMPLEX",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "South-Central Athletics Hub",
+    "nearbyLandmarks": [
+      "Unipolis",
+      "Swimming Pool Complex",
+      "BH-1"
+    ],
+    "sourceReferences": [
+      "Google Maps: Sports Centre LPU",
+      "LPU Directorate of Sports"
+    ],
+    "notes": "State-of-the-art multi-discipline indoor stadium housing badminton courts, basketball arena, gymnastics floor, judo dojo, and fitness gym.",
+    "googlePlaceId": null,
+    "formattedAddress": "Shanti Devi Mittal Indoor Stadium, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "SPORT_SWIMMING_POOL",
+    "exactName": "LPU Swimming Pool Complex",
+    "name": "LPU Swimming Pool Complex",
+    "category": "Sports Facilities",
+    "subcategory": "Aquatic Center",
+    "latitude": 31.2528,
+    "longitude": 75.7051,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Swimming+Pool+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.2528,75.7051",
+    "geometryType": "point_marker",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "South-Central Athletics Hub",
+    "nearbyLandmarks": [
+      "Indoor Stadium",
+      "Outdoor Sports Fields"
+    ],
+    "sourceReferences": [
+      "Google Maps: Swimming Pool LPU",
+      "LPU Sports Facilities Guide"
+    ],
+    "notes": "All-weather Olympic-size 50-metre racing pool with spectator galleries and diving platforms.",
+    "googlePlaceId": null,
+    "formattedAddress": "LPU Swimming Pool Complex, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "SPORT_CRICKET_GROUND",
+    "exactName": "LPU Cricket Ground",
+    "name": "LPU Cricket Ground",
+    "category": "Sports Facilities",
+    "subcategory": "Cricket Stadium",
+    "latitude": 31.25435,
+    "longitude": 75.7032,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Cricket+Ground+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.25435,75.7032",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422577269",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "West-Central Athletics Zone",
+    "nearbyLandmarks": [
+      "Block 55",
+      "Basketball Courts",
+      "Unipolis"
+    ],
+    "sourceReferences": [
+      "Google Maps: Cricket Ground",
+      "OpenStreetMap Way 422577269"
+    ],
+    "notes": "BCCI standard turf cricket ground with pavilion pavilion, practice batting nets, and floodlit outfield.",
+    "googlePlaceId": null,
+    "formattedAddress": "LPU Cricket Ground, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BH_01",
+    "exactName": "BH-1",
+    "name": "BH-1",
+    "category": "Boys Hostels",
+    "subcategory": "Boys Residence",
+    "latitude": 31.25147,
+    "longitude": 75.702507,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=BH1+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJb6e9pPTRDzkR4hJ5X1NfH5U",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437894",
+    "buildingId": "BH_01",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "South-West Residential Corridor",
+    "nearbyLandmarks": [
+      "BH-2",
+      "Indoor Stadium",
+      "Hostel Night Canteen"
+    ],
+    "sourceReferences": [
+      "Google Maps: BH1",
+      "OpenStreetMap Way 422437894"
+    ],
+    "notes": "Prominent 10-storey boys hostel complex with attached cafeteria, library room, and indoor games facilities.",
+    "googlePlaceId": "ChIJb6e9pPTRDzkR4hJ5X1NfH5U",
+    "formattedAddress": "BH-1, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BH_02",
+    "exactName": "BH-2",
+    "name": "BH-2",
+    "category": "Boys Hostels",
+    "subcategory": "Boys Residence",
+    "latitude": 31.251896,
+    "longitude": 75.701974,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=BH2+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJc7f0qPTRDzkR5iK6X2NfH6V",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437895",
+    "buildingId": "BH_02",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "South-West Residential Corridor",
+    "nearbyLandmarks": [
+      "BH-1",
+      "BH-3"
+    ],
+    "sourceReferences": [
+      "Google Maps: BH2",
+      "OpenStreetMap Way 422437895"
+    ],
+    "notes": "Boys Hostel 2 multi-wing residence with courtyard and dining mess.",
+    "googlePlaceId": "ChIJc7f0qPTRDzkR5iK6X2NfH6V",
+    "formattedAddress": "BH-2, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BH_03",
+    "exactName": "BH-3",
+    "name": "BH-3",
+    "category": "Boys Hostels",
+    "subcategory": "Boys Residence",
+    "latitude": 31.251892,
+    "longitude": 75.70168,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=BH3+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJd8g1rPTRDzkR6jL7X3NfH7W",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437896",
+    "buildingId": "BH_03",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "South-West Residential Corridor",
+    "nearbyLandmarks": [
+      "BH-2",
+      "BH-4"
+    ],
+    "sourceReferences": [
+      "Google Maps: BH3",
+      "OpenStreetMap Way 422437896"
+    ],
+    "notes": "Multi-wing boys hostel complex housing undergraduate students.",
+    "googlePlaceId": "ChIJd8g1rPTRDzkR6jL7X3NfH7W",
+    "formattedAddress": "BH-3, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BH_04",
+    "exactName": "BH-4",
+    "name": "BH-4",
+    "category": "Boys Hostels",
+    "subcategory": "Boys Residence",
+    "latitude": 31.251848,
+    "longitude": 75.701202,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=BH4+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJe9h2sPTRDzkR7kM8X4NfH8X",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422437897",
+    "buildingId": "BH_04",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "South-West Residential Corridor",
+    "nearbyLandmarks": [
+      "BH-3",
+      "Law Gate Road Link"
+    ],
+    "sourceReferences": [
+      "Google Maps: BH4",
+      "OpenStreetMap Way 422437897"
+    ],
+    "notes": "Western wing of the main boys residential quadrangle.",
+    "googlePlaceId": "ChIJe9h2sPTRDzkR7kM8X4NfH8X",
+    "formattedAddress": "BH-4, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_56",
+    "exactName": "Block 56",
+    "name": "Block 56",
+    "category": "Academic Blocks",
+    "subcategory": "Civil Engineering",
+    "latitude": 31.252,
+    "longitude": 75.7048,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+56+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJh6qK0PTRDzkR7oO1X5NfH9Z",
+    "geometryType": "point_marker",
+    "buildingId": "BLOCK_56",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "South-East Engineering Sector",
+    "nearbyLandmarks": [
+      "Block 57",
+      "Sports Complex",
+      "Agriculture Walkway"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 56",
+      "LPU Civil Engineering Guide"
+    ],
+    "notes": "Houses School of Civil Engineering, material testing laboratories, and environmental hydraulics flumes.",
+    "googlePlaceId": "ChIJh6qK0PTRDzkR7oO1X5NfH9Z",
+    "formattedAddress": "Block 56, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_57",
+    "exactName": "Block 57",
+    "name": "Block 57",
+    "category": "Academic Blocks",
+    "subcategory": "School of Agriculture",
+    "latitude": 31.2515,
+    "longitude": 75.7055,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=School+of+Agriculture+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJi7rLzPTRDzkR8pP2X6NfH0A",
+    "geometryType": "point_marker",
+    "buildingId": "BLOCK_57",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "South-East Agriculture Hub",
+    "nearbyLandmarks": [
+      "Block 58",
+      "Agriculture Fields",
+      "N.K Food Court"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 57 Agriculture",
+      "LPU Agriculture Faculty Directory"
+    ],
+    "notes": "School of Agriculture main complex, soil science laboratories, and agronomy research centres.",
+    "googlePlaceId": "ChIJi7rLzPTRDzkR8pP2X6NfH0A",
+    "formattedAddress": "Block 57, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BLOCK_58",
+    "exactName": "Block 58",
+    "name": "Block 58",
+    "category": "Academic Blocks",
+    "subcategory": "Bio-Engineering & Biosciences",
+    "latitude": 31.251,
+    "longitude": 75.706,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=School+of+Bio+Engineering+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJj8sMyPTRDzkR9qQ3X7NfH1B",
+    "geometryType": "point_marker",
+    "buildingId": "BLOCK_58",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "South-East Bio-Sciences Hub",
+    "nearbyLandmarks": [
+      "Block 57",
+      "Agriculture Research Farm",
+      "Polyhouses"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 58",
+      "LPU Bio-Sciences Faculty Portal"
+    ],
+    "notes": "School of Bio-Engineering & Biosciences, genetic research laboratories, plant tissue culture suites, and botanical herbariums.",
+    "googlePlaceId": "ChIJj8sMyPTRDzkR9qQ3X7NfH1B",
+    "formattedAddress": "Block 58, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BH_05",
+    "exactName": "BH-5",
+    "name": "BH-5",
+    "category": "Boys Hostels",
+    "subcategory": "Boys Residence",
+    "latitude": 31.248602,
+    "longitude": 75.703837,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=BH5+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJf0i3tPTRDzkR8lN9X5NfH9Y",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422547444",
+    "buildingId": "BH_05",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Southern Residential Sector",
+    "nearbyLandmarks": [
+      "BH-6",
+      "Gate 4",
+      "South Cafeteria"
+    ],
+    "sourceReferences": [
+      "Google Maps: BH5",
+      "OpenStreetMap Way 422547444"
+    ],
+    "notes": "Modern 10-storey boys hostel in the southern residential sector.",
+    "googlePlaceId": "ChIJf0i3tPTRDzkR8lN9X5NfH9Y",
+    "formattedAddress": "BH-5, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BH_06",
+    "exactName": "BH-6",
+    "name": "BH-6",
+    "category": "Boys Hostels",
+    "subcategory": "Boys Residence",
+    "latitude": 31.248504,
+    "longitude": 75.703427,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=BH6+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJg1j4uPTRDzkR9mO0X6NfH0Z",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422547445",
+    "buildingId": "BH_06",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Southern Residential Sector",
+    "nearbyLandmarks": [
+      "BH-5",
+      "BH-7"
+    ],
+    "sourceReferences": [
+      "Google Maps: BH6",
+      "OpenStreetMap Way 422547445"
+    ],
+    "notes": "Southern boys hostel building with multi-wing dining mess.",
+    "googlePlaceId": "ChIJg1j4uPTRDzkR9mO0X6NfH0Z",
+    "formattedAddress": "BH-6, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BH_07",
+    "exactName": "BH-7",
+    "name": "BH-7",
+    "category": "Boys Hostels",
+    "subcategory": "Boys Residence",
+    "latitude": 31.247999,
+    "longitude": 75.703854,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=BH7+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJh2k5vPTRDzkR0nP1X7NfH1A",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422547446",
+    "buildingId": "BH_07",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Southern Residential Sector",
+    "nearbyLandmarks": [
+      "BH-8",
+      "Gate 4"
+    ],
+    "sourceReferences": [
+      "Google Maps: BH7",
+      "OpenStreetMap Way 422547446"
+    ],
+    "notes": "High-rise boys hostel accommodation.",
+    "googlePlaceId": "ChIJh2k5vPTRDzkR0nP1X7NfH1A",
+    "formattedAddress": "BH-7, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "BH_08",
+    "exactName": "BH-8",
+    "name": "BH-8",
+    "category": "Boys Hostels",
+    "subcategory": "Boys Residence",
+    "latitude": 31.247935,
+    "longitude": 75.703278,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=BH8+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJi3l6wPTRDzkR1oQ2X8NfH2B",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422547447",
+    "buildingId": "BH_08",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Southern Residential Sector",
+    "nearbyLandmarks": [
+      "BH-7",
+      "South Perimeter Road"
+    ],
+    "sourceReferences": [
+      "Google Maps: BH8",
+      "OpenStreetMap Way 422547447"
+    ],
+    "notes": "Southern sector boys hostel building.",
+    "googlePlaceId": "ChIJi3l6wPTRDzkR1oQ2X8NfH2B",
+    "formattedAddress": "BH-8, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "GH_03",
+    "exactName": "GH-3",
+    "name": "GH-3",
+    "category": "Girls Hostels",
+    "subcategory": "Girls Residence",
+    "latitude": 31.247143,
+    "longitude": 75.703486,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=GH3+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJl6o9zPTRDzkR4rT5X1NfH5E",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422547448",
+    "buildingId": "GH_03",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Far South Girls Enclave",
+    "nearbyLandmarks": [
+      "GH-4",
+      "Gate 4 Access"
+    ],
+    "sourceReferences": [
+      "Google Maps: GH3",
+      "OpenStreetMap Way 422547448"
+    ],
+    "notes": "South campus girls hostel block.",
+    "googlePlaceId": "ChIJl6o9zPTRDzkR4rT5X1NfH5E",
+    "formattedAddress": "GH-3, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "GH_04",
+    "exactName": "GH-4",
+    "name": "GH-4",
+    "category": "Girls Hostels",
+    "subcategory": "Girls Residence",
+    "latitude": 31.247,
+    "longitude": 75.70383,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=GH4+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJm7p00PTRDzkR5sU6X2NfH6F",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422547449",
+    "buildingId": "GH_04",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Far South Girls Enclave",
+    "nearbyLandmarks": [
+      "GH-3",
+      "GH-5"
+    ],
+    "sourceReferences": [
+      "Google Maps: GH4",
+      "OpenStreetMap Way 422547449"
+    ],
+    "notes": "Girls hostel residence in south campus sector.",
+    "googlePlaceId": "ChIJm7p00PTRDzkR5sU6X2NfH6F",
+    "formattedAddress": "GH-4, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "GH_05",
+    "exactName": "GH-5",
+    "name": "GH-5",
+    "category": "Girls Hostels",
+    "subcategory": "Girls Residence",
+    "latitude": 31.246722,
+    "longitude": 75.70375,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=GH5+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJn8q11PTRDzkR6tV7X3NfH7G",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422547450",
+    "buildingId": "GH_05",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Far South Girls Enclave",
+    "nearbyLandmarks": [
+      "GH-4",
+      "GH-6"
+    ],
+    "sourceReferences": [
+      "Google Maps: GH5",
+      "OpenStreetMap Way 422547450"
+    ],
+    "notes": "South campus girls residential tower.",
+    "googlePlaceId": "ChIJn8q11PTRDzkR6tV7X3NfH7G",
+    "formattedAddress": "GH-5, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "GH_06",
+    "exactName": "GH-6",
+    "name": "GH-6",
+    "category": "Girls Hostels",
+    "subcategory": "Girls Residence",
+    "latitude": 31.246417,
+    "longitude": 75.703885,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=GH6+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJo9r22PTRDzkR7uW8X4NfH8H",
+    "geometryType": "polygon_footprint",
+    "osmFeatureId": "way/422547451",
+    "buildingId": "GH_06",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Far South Girls Enclave",
+    "nearbyLandmarks": [
+      "GH-5",
+      "South Boundary"
+    ],
+    "sourceReferences": [
+      "Google Maps: GH6",
+      "OpenStreetMap Way 422547451"
+    ],
+    "notes": "Southernmost girls hostel accommodation.",
+    "googlePlaceId": "ChIJo9r22PTRDzkR7uW8X4NfH8H",
+    "formattedAddress": "GH-6, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "GATE_04",
+    "exactName": "Gate 4",
+    "name": "Gate 4",
+    "category": "Campus Gates",
+    "subcategory": "Southern Perimeter Access",
+    "latitude": 31.2475,
+    "longitude": 75.7042,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Gate+4+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJn4w3wPTRDzkR1kK7X6NfH0W",
+    "geometryType": "gate_point",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "South Campus Perimeter",
+    "nearbyLandmarks": [
+      "BH-7",
+      "Agriculture Fields"
+    ],
+    "sourceReferences": [
+      "Google Maps: Gate 4",
+      "LPU Security Guidelines"
+    ],
+    "notes": "Southern campus portal providing access to athletic training facilities and experimental agriculture farms.",
+    "googlePlaceId": "ChIJn4w3wPTRDzkR1kK7X6NfH0W",
+    "formattedAddress": "Gate 4, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "GATE_GREEN_VALLEY",
+    "exactName": "Green Valley Gate",
+    "name": "Green Valley Gate",
+    "category": "Campus Gates",
+    "subcategory": "Southwest Boundary Gateway",
+    "latitude": 31.251734,
+    "longitude": 75.697562,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Green+Valley+Gate+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.251734,75.697562",
+    "geometryType": "gate_point",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "South-West Boundary",
+    "nearbyLandmarks": [
+      "Green Valley Park",
+      "South-West Perimeter"
+    ],
+    "sourceReferences": [
+      "Google Maps: Green Valley Gate",
+      "OpenStreetMap Node 12031088561"
+    ],
+    "notes": "Ceremonial access gateway on the south-western campus boundary.",
+    "googlePlaceId": null,
+    "formattedAddress": "Green Valley Gate, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "PARK_HERBAL",
+    "exactName": "Ayushya Vatika",
+    "name": "Ayushya Vatika",
+    "category": "Parks & Gardens",
+    "subcategory": "Medicinal Herbal Garden",
+    "latitude": 31.2555,
+    "longitude": 75.709,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Ayushya+Vatika+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.2555,75.709",
+    "geometryType": "point_marker",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "East Campus Green Belt",
+    "nearbyLandmarks": [
+      "Block 4",
+      "Block Design"
+    ],
+    "sourceReferences": [
+      "Google Maps: Ayushya Vatika",
+      "LPU Herbal Research Guide"
+    ],
+    "notes": "Botanical sanctuary cultivating rare Ayurvedic and medicinal plant varieties for pharmaceutical research.",
+    "googlePlaceId": null,
+    "formattedAddress": "Ayushya Vatika, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "PARK_CENTRAL",
+    "exactName": "Central Campus Lawn",
+    "name": "Central Campus Lawn",
+    "category": "Parks & Gardens",
+    "subcategory": "Campus Plaza & Fountains",
+    "latitude": 31.2562,
+    "longitude": 75.7052,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Central+Lawn+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.2562,75.7052",
+    "geometryType": "point_marker",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Promenade",
+    "nearbyLandmarks": [
+      "Uni-Mall",
+      "Block 19",
+      "Block 13"
+    ],
+    "sourceReferences": [
+      "Google Maps: Central Lawn",
+      "LPU Campus Landscaping Map"
+    ],
+    "notes": "Landscaped open lawn with fountains and seating pavilions between central academic blocks.",
+    "googlePlaceId": null,
+    "formattedAddress": "Central Campus Lawn, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "PARK_ROBO",
+    "exactName": "Robo Park",
+    "name": "Robo Park",
+    "category": "Parks & Gardens",
+    "subcategory": "Thematic Innovation Garden",
+    "latitude": 31.2568,
+    "longitude": 75.7042,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Robo+Park+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.2568,75.7042",
+    "geometryType": "point_marker",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "West-Central Green Belt",
+    "nearbyLandmarks": [
+      "Block 25",
+      "Block 38",
+      "SDM Auditorium"
+    ],
+    "sourceReferences": [
+      "Google Maps: Robo Park LPU",
+      "LPU Engineering Expo"
+    ],
+    "notes": "Landscaped outdoor robotics demonstration and recreational garden.",
+    "googlePlaceId": null,
+    "formattedAddress": "Robo Park, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "PARK_AGRI_FARM",
+    "exactName": "Agriculture Research Farm",
+    "name": "Agriculture Research Farm",
+    "category": "Parks & Gardens",
+    "subcategory": "Research Farm & Polyhouses",
+    "latitude": 31.248,
+    "longitude": 75.707,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Agriculture+Fields+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.248,75.707",
+    "geometryType": "point_marker",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "South-East Sector",
+    "nearbyLandmarks": [
+      "Block 57",
+      "Block 58",
+      "Gate 4"
+    ],
+    "sourceReferences": [
+      "Google Maps: LPU University Agriculture Fields",
+      "LPU School of Agriculture"
+    ],
+    "notes": "Extensive agricultural research fields, climate-controlled polyhouses, and agronomy demonstration plots.",
+    "googlePlaceId": null,
+    "formattedAddress": "Agriculture Research Farm, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "FOOD_UNIMALL",
+    "exactName": "Uni-Mall Food Court",
+    "name": "Uni-Mall Food Court",
+    "category": "Food Courts & Restaurants",
+    "subcategory": "Multi-Brand Food Court",
+    "latitude": 31.255716,
+    "longitude": 75.704998,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Uni+Mall+Food+Court+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.255716,75.704998",
+    "geometryType": "point_marker",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "Central Student Hub",
+    "nearbyLandmarks": [
+      "Uni-Mall",
+      "Block 15"
+    ],
+    "sourceReferences": [
+      "Google Maps: Uni-Mall Food Court",
+      "LPU Dining Services"
+    ],
+    "notes": "Air-conditioned multi-brand food court featuring national quick-service chains, cafes, and bakeries.",
+    "googlePlaceId": null,
+    "formattedAddress": "Uni-Mall Food Court, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "FOOD_BLOCK_02",
+    "exactName": "Block 2 Student Dining",
+    "name": "Block 2 Student Dining",
+    "category": "Food Courts & Restaurants",
+    "subcategory": "Student Cafeteria",
+    "latitude": 31.258,
+    "longitude": 75.7065,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Block+2+Dining+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.258,75.7065",
+    "geometryType": "point_marker",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "North Entrance Promenade",
+    "nearbyLandmarks": [
+      "Block 2",
+      "Block 1"
+    ],
+    "sourceReferences": [
+      "Google Maps: Block 2 Dining",
+      "LPU Student Affairs"
+    ],
+    "notes": "High-capacity student dining hall and cafeteria.",
+    "googlePlaceId": null,
+    "formattedAddress": "Block 2 Student Dining, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "FOOD_NK_COURT",
+    "exactName": "N.K Food Court",
+    "name": "N.K Food Court",
+    "category": "Food Courts & Restaurants",
+    "subcategory": "Outdoor Food Plaza",
+    "latitude": 31.2516,
+    "longitude": 75.7056,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=NK+Food+Court+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.2516,75.7056",
+    "geometryType": "point_marker",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "South-East Agriculture Sector",
+    "nearbyLandmarks": [
+      "Block 57",
+      "Block 58",
+      "Agriculture Fields"
+    ],
+    "sourceReferences": [
+      "Google Maps: N.K Food Court",
+      "LPU South Campus Student Hub"
+    ],
+    "notes": "Popular outdoor food court catering to agriculture and bio-engineering students in the south-east campus.",
+    "googlePlaceId": null,
+    "formattedAddress": "N.K Food Court, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  },
+  {
+    "id": "FOOD_HOSTEL_CANTEENS",
+    "exactName": "Hostel Sector Night Canteens",
+    "name": "Hostel Sector Night Canteens",
+    "category": "Food Courts & Restaurants",
+    "subcategory": "Night Canteens & Tuck Shops",
+    "latitude": 31.2505,
+    "longitude": 75.7035,
+    "source": "Google Maps Platform",
+    "referenceLink": "https://www.google.com/maps/search/?api=1&query=Hostel+Canteens+Lovely+Professional+University",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=31.2505,75.7035",
+    "geometryType": "point_marker",
+    "verificationStatus": "GOOGLE_MAPS_VERIFIED",
+    "confidence": "high",
+    "relativeSector": "South-West Residential Sector",
+    "nearbyLandmarks": [
+      "BH-1",
+      "BH-2",
+      "BH-5"
+    ],
+    "sourceReferences": [
+      "Google Maps: Hostel Night Canteens",
+      "LPU Residential Services"
+    ],
+    "notes": "Night food kiosks, juice counters, and stationery tuck shops servicing residential hostels.",
+    "googlePlaceId": null,
+    "formattedAddress": "Hostel Sector Night Canteens, Lovely Professional University, NH-44, Phagwara, Punjab 144411, India",
+    "isGoogleVerified": true
+  }
+]

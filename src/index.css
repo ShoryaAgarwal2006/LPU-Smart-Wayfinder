@@ -1,0 +1,214 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+/* Ensure Leaflet Container always fills 100% of parent with a clean neutral background */
+.leaflet-container {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 100% !important;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  z-index: 10;
+  background-color: #f8fafc;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Pulse animation for GPS marker */
+@keyframes gps-pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 16px rgba(37, 99, 235, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(37, 99, 235, 0);
+  }
+}
+
+.gps-marker-dot {
+  animation: gps-pulse 2s infinite;
+}
+
+/* --- Live Turn-by-Turn Navigation Marker --- */
+.live-nav-marker-wrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.live-nav-heading-arrow {
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  transform-origin: center bottom;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 20px solid #2563eb;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+  pointer-events: none;
+}
+
+.live-nav-pulse-ring {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid #3b82f6;
+  animation: live-nav-ping 1.8s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes live-nav-ping {
+  70%, 100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+.leaflet-tile {
+  image-rendering: auto;
+}
+
+/* --- Cartographic Smart Labels --- */
+.campus-label-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 7px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 1.2;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.25);
+  pointer-events: auto;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  user-select: none;
+}
+
+.campus-label-badge:hover {
+  transform: translateY(-1px) scale(1.04);
+  box-shadow: 0 4px 10px -1px rgba(0, 0, 0, 0.35);
+  z-index: 1000 !important;
+}
+
+.badge-academic {
+  background-color: #0f172a;
+  color: #f8fafc;
+  border: 1px solid #334155;
+}
+
+.badge-boys-hostel {
+  background-color: #1e3a8a;
+  color: #eff6ff;
+  border: 1px solid #3b82f6;
+}
+
+.badge-girls-hostel {
+  background-color: #701a75;
+  color: #fdf4ff;
+  border: 1px solid #d946ef;
+}
+
+.badge-landmark {
+  background-color: #78350f;
+  color: #fffbeb;
+  border: 1px solid #f59e0b;
+}
+
+.badge-gate {
+  background-color: #065f46;
+  color: #ecfdf5;
+  border: 1px solid #10b981;
+}
+
+.badge-facility {
+  background-color: #134e4a;
+  color: #f0fdfa;
+  border: 1px solid #2dd4bf;
+}
+
+.badge-sports {
+  background-color: #9a3412;
+  color: #fff7ed;
+  border: 1px solid #fb923c;
+}
+
+.badge-studio {
+  background-color: #312e81;
+  color: #e0e7ff;
+  border: 1px solid #6366f1;
+}
+
+.badge-apartment {
+  background-color: #1e293b;
+  color: #f1f5f9;
+  border: 1px solid #64748b;
+}
+
+.badge-garden {
+  background-color: #064e3b;
+  color: #ecfdf5;
+  border: 1px solid #34d399;
+}
+
+.badge-medical {
+  background-color: #881337;
+  color: #fff1f2;
+  border: 1px solid #f43f5e;
+}
+
+.badge-food {
+  background-color: #7c2d12;
+  color: #ffedd5;
+  border: 1px solid #f97316;
+}
+
+.badge-event {
+  background-color: #581c87;
+  color: #faf5ff;
+  border: 1.5px solid #d8b4fe;
+  box-shadow: 0 4px 10px rgba(88, 28, 135, 0.4);
+}
+
+/* Modern Leaflet Popup Card */
+.leaflet-popup-content-wrapper {
+  padding: 0 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid #e2e8f0 !important;
+  overflow: hidden !important;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  line-height: 1.4 !important;
+}
+
+.leaflet-popup-tip-container {
+  margin-top: -1px;
+}

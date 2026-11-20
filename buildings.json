@@ -1,0 +1,1983 @@
+{
+  "buildings": [
+    {
+      "id": "LOC_1795169446682",
+      "name": "Animal Breeding House",
+      "block_number": "LOC_1795169446682",
+      "category": "Academic Blocks",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.257422,
+        "longitude": 75.707857
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Academic Blocks"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "PARK_AYUSHYA_VATIKA",
+      "name": "Ayushya Vatika",
+      "block_number": "PARK_AYUSHYA_VATIKA",
+      "category": "Parks & Gardens",
+      "subcategory": "Enclosed Landscaped Botanical Garden",
+      "coordinates": {
+        "latitude": 31.2577,
+        "longitude": 75.7042
+      },
+      "geographical_area": "East-Central Girls Residential Compound",
+      "nearby_landmarks": [
+        "GH-1",
+        "GH-2",
+        "GS-1",
+        "Uni Hospital"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Enclosed Landscaped Botanical Garden"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172885452",
+      "name": "BH-1",
+      "block_number": "LOC_1795172885452",
+      "category": "Boys Hostels",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.251332,
+        "longitude": 75.700296
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Boys Hostels"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BH_02",
+      "name": "BH-2",
+      "block_number": "02",
+      "category": "Boys Hostels",
+      "subcategory": "Undergraduate Boys Residential Hall",
+      "coordinates": {
+        "latitude": 31.249681,
+        "longitude": 75.700999
+      },
+      "geographical_area": "South-West Residential Sector",
+      "nearby_landmarks": [
+        "BH-1",
+        "BH-3",
+        "Main Food Court",
+        "Basketball Courts"
+      ],
+      "osm_way_id": 422437895,
+      "floors": 10,
+      "primary_occupants": [
+        "Undergraduate Boys Residential Hall"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BH_03",
+      "name": "BH-3",
+      "block_number": "03",
+      "category": "Boys Hostels",
+      "subcategory": "Undergraduate Boys Residential Hall",
+      "coordinates": {
+        "latitude": 31.249722,
+        "longitude": 75.700291
+      },
+      "geographical_area": "South-West Residential Sector",
+      "nearby_landmarks": [
+        "BH-2",
+        "BH-4",
+        "Cricket Ground",
+        "Food Factory"
+      ],
+      "osm_way_id": 422437896,
+      "floors": 10,
+      "primary_occupants": [
+        "Undergraduate Boys Residential Hall"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BH_04",
+      "name": "BH-4",
+      "block_number": "04",
+      "category": "Boys Hostels",
+      "subcategory": "Undergraduate Boys Residential Hall",
+      "coordinates": {
+        "latitude": 31.248677,
+        "longitude": 75.699164
+      },
+      "geographical_area": "South-West Residential Sector",
+      "nearby_landmarks": [
+        "BH-3",
+        "Cricket Ground",
+        "Green Valley Gate"
+      ],
+      "osm_way_id": 422437897,
+      "floors": 10,
+      "primary_occupants": [
+        "Undergraduate Boys Residential Hall"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BH_05",
+      "name": "BH-5",
+      "block_number": "05",
+      "category": "Boys Hostels",
+      "subcategory": "Senior Boys Residential Hall",
+      "coordinates": {
+        "latitude": 31.248695,
+        "longitude": 75.70329
+      },
+      "geographical_area": "South-Central Residential Corridor",
+      "nearby_landmarks": [
+        "BH-6",
+        "Gurudwara Rd",
+        "Block 58"
+      ],
+      "osm_way_id": 422547444,
+      "floors": 10,
+      "primary_occupants": [
+        "Senior Boys Residential Hall"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BH_06",
+      "name": "BH-6",
+      "block_number": "06",
+      "category": "Boys Hostels",
+      "subcategory": "Senior Boys Residential Hall",
+      "coordinates": {
+        "latitude": 31.247998,
+        "longitude": 75.703295
+      },
+      "geographical_area": "South-Central Residential Corridor",
+      "nearby_landmarks": [
+        "BH-5",
+        "BH-7",
+        "Block 55",
+        "N.K Food Court"
+      ],
+      "osm_way_id": 422547445,
+      "floors": 10,
+      "primary_occupants": [
+        "Senior Boys Residential Hall"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BH_07",
+      "name": "BH-7",
+      "block_number": "07",
+      "category": "Boys Hostels",
+      "subcategory": "Boys Residential Hall",
+      "coordinates": {
+        "latitude": 31.249461,
+        "longitude": 75.698301
+      },
+      "geographical_area": "South-Central Residential Corridor",
+      "nearby_landmarks": [
+        "BH-6",
+        "BH-8",
+        "Block 56"
+      ],
+      "osm_way_id": 422547446,
+      "floors": 10,
+      "primary_occupants": [
+        "Boys Residential Hall"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BS_11",
+      "name": "BS-11",
+      "block_number": "11",
+      "category": "Boys Studios",
+      "subcategory": "Premium Air-Conditioned Boys Studio Apartment",
+      "coordinates": {
+        "latitude": 31.249177,
+        "longitude": 75.706766
+      },
+      "geographical_area": "South-East Residential Sector",
+      "nearby_landmarks": [
+        "BS-12",
+        "BS-13",
+        "Mechanical Link Rd"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Premium Air-Conditioned Boys Studio Apartment"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BS_12",
+      "name": "BS-12",
+      "block_number": "12",
+      "category": "Boys Studios",
+      "subcategory": "Premium Air-Conditioned Boys Studio Apartment",
+      "coordinates": {
+        "latitude": 31.24897,
+        "longitude": 75.708048
+      },
+      "geographical_area": "South-East Residential Sector",
+      "nearby_landmarks": [
+        "BS-11",
+        "BS-13"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Premium Air-Conditioned Boys Studio Apartment"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BS_13",
+      "name": "BS-13",
+      "block_number": "13",
+      "category": "Boys Studios",
+      "subcategory": "Premium Air-Conditioned Boys Studio Apartment",
+      "coordinates": {
+        "latitude": 31.248241,
+        "longitude": 75.708117
+      },
+      "geographical_area": "South-East Residential Sector",
+      "nearby_landmarks": [
+        "BS-12",
+        "Eastern Perimeter Boundary"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Premium Air-Conditioned Boys Studio Apartment"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "AUDI_UNIPOLIS",
+      "name": "Baldev Raj Mittal UniPolis",
+      "block_number": "AUDI_UNIPOLIS",
+      "category": "Sports & Arenas",
+      "subcategory": "University Mega-Auditorium & Open Cultural Arena",
+      "coordinates": {
+        "latitude": 31.2551,
+        "longitude": 75.7046
+      },
+      "geographical_area": "Central Promenade",
+      "nearby_landmarks": [
+        "Uni-Mall",
+        "Block 14",
+        "Block 19"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "University Mega-Auditorium & Open Cultural Arena"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172662558",
+      "name": "Baldevraj Food Court",
+      "block_number": "LOC_1795172662558",
+      "category": "Food Courts & Dining",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.255184,
+        "longitude": 75.704051
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Food Courts & Dining"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "PARK_SUNKEN_GROUND",
+      "name": "Baldevraj Mittal Park",
+      "block_number": "PARK_SUNKEN_GROUND",
+      "category": "Parks & Gardens",
+      "subcategory": "Terraced Amphitheatre Park & Open Lawn",
+      "coordinates": {
+        "latitude": 31.259045,
+        "longitude": 75.706969
+      },
+      "geographical_area": "North-Central Campus",
+      "nearby_landmarks": [
+        "Baldevraj Mittal Auditorium",
+        "Gate 2",
+        "Block 3"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Terraced Amphitheatre Park & Open Lawn"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172994947",
+      "name": "Basketball Court",
+      "block_number": "LOC_1795172994947",
+      "category": "Other Landmark",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.248544,
+        "longitude": 75.701873
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Other Landmark"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_25",
+      "name": "Block 25",
+      "block_number": "25",
+      "category": "Academic Blocks",
+      "subcategory": "Mittal School of Business (Management Quad)",
+      "coordinates": {
+        "latitude": 31.252717,
+        "longitude": 75.702512
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [
+        "Block 26",
+        "Robo Park",
+        "School of Biosciences"
+      ],
+      "osm_way_id": 422437899,
+      "floors": 8,
+      "primary_occupants": [
+        "Mittal School of Business (Management Quad)"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_26",
+      "name": "Block 26",
+      "block_number": "26",
+      "category": "Academic Blocks",
+      "subcategory": "Mittal School of Business & Economics",
+      "coordinates": {
+        "latitude": 31.252648,
+        "longitude": 75.702882
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [
+        "Block 25",
+        "Block 27",
+        "Shanti Devi Mittal Auditorium"
+      ],
+      "osm_way_id": null,
+      "floors": 8,
+      "primary_occupants": [
+        "Mittal School of Business & Economics"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_27",
+      "name": "Block 27",
+      "block_number": "27",
+      "category": "Academic Blocks",
+      "subcategory": "Mittal School of Business & Commerce",
+      "coordinates": {
+        "latitude": 31.25268,
+        "longitude": 75.703306
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [
+        "Block 26",
+        "Block 28",
+        "Shanti Devi Mittal Auditorium"
+      ],
+      "osm_way_id": null,
+      "floors": 8,
+      "primary_occupants": [
+        "Mittal School of Business & Commerce"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_28",
+      "name": "Block 28",
+      "block_number": "28",
+      "category": "Academic Blocks",
+      "subcategory": "Executive Management & Corporate Relations",
+      "coordinates": {
+        "latitude": 31.252667,
+        "longitude": 75.703719
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [
+        "Block 27",
+        "The Chancellory",
+        "Division of Admissions"
+      ],
+      "osm_way_id": null,
+      "floors": 8,
+      "primary_occupants": [
+        "Executive Management & Corporate Relations"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_31",
+      "name": "Block 31",
+      "block_number": "31",
+      "category": "Academic Blocks",
+      "subcategory": "School of Computer Applications & IT",
+      "coordinates": {
+        "latitude": 31.252378,
+        "longitude": 75.704926
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [
+        "Block 30",
+        "Block 32",
+        "Division of Admissions"
+      ],
+      "osm_way_id": null,
+      "floors": 10,
+      "primary_occupants": [
+        "School of Computer Applications & IT"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_32",
+      "name": "Block 32",
+      "block_number": "32",
+      "category": "Academic Blocks",
+      "subcategory": "Computer Science & Software Engineering Labs",
+      "coordinates": {
+        "latitude": 31.252116,
+        "longitude": 75.704786
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [
+        "Block 33",
+        "Block 34",
+        "The Chancellory"
+      ],
+      "osm_way_id": 422437904,
+      "floors": 10,
+      "primary_occupants": [
+        "Computer Science & Software Engineering Labs"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_33",
+      "name": "Block 33",
+      "block_number": "33",
+      "category": "Academic Blocks",
+      "subcategory": "School of Computer Science & Engineering",
+      "coordinates": {
+        "latitude": 31.251781,
+        "longitude": 75.704792
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [
+        "Block 32",
+        "Block 34",
+        "Block 36"
+      ],
+      "osm_way_id": 422437908,
+      "floors": 10,
+      "primary_occupants": [
+        "School of Computer Science & Engineering"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_34",
+      "name": "Block 34",
+      "block_number": "34",
+      "category": "Academic Blocks",
+      "subcategory": "School of Computer Science & Engineering (CSE Main)",
+      "coordinates": {
+        "latitude": 31.251479,
+        "longitude": 75.704759
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [
+        "Block 33",
+        "Block 35",
+        "LPU Open Audi Rd"
+      ],
+      "osm_way_id": 422437906,
+      "floors": 10,
+      "primary_occupants": [
+        "School of Computer Science & Engineering (CSE Main)"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_35",
+      "name": "Block 35",
+      "block_number": "35",
+      "category": "Academic Blocks",
+      "subcategory": "Academic Lecture Theatres & Examination Center",
+      "coordinates": {
+        "latitude": 31.251511,
+        "longitude": 75.704118
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [
+        "Block 34",
+        "Block 36",
+        "Central Library"
+      ],
+      "osm_way_id": 422437902,
+      "floors": 4,
+      "primary_occupants": [
+        "Academic Lecture Theatres & Examination Center"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_36",
+      "name": "Block 36",
+      "block_number": "36",
+      "category": "Academic Blocks",
+      "subcategory": "School of Law & Social Sciences",
+      "coordinates": {
+        "latitude": 31.251752,
+        "longitude": 75.704236
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [
+        "Block 37 (Central Library)",
+        "Block 35",
+        "Shanti Devi Mittal Auditorium"
+      ],
+      "osm_way_id": 354755644,
+      "floors": 7,
+      "primary_occupants": [
+        "School of Law & Social Sciences"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_37",
+      "name": "Block 37 (Central Library)",
+      "block_number": "37",
+      "category": "Academic Blocks",
+      "subcategory": "Central University Library & Research Archives",
+      "coordinates": {
+        "latitude": 31.251862,
+        "longitude": 75.703724
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [
+        "Block 36",
+        "Block 38",
+        "Shanti Devi Mittal Auditorium"
+      ],
+      "osm_way_id": null,
+      "floors": 6,
+      "primary_occupants": [
+        "Central University Library & Research Archives"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_38",
+      "name": "Block 38",
+      "block_number": "38",
+      "category": "Academic Blocks",
+      "subcategory": "Research Scholars Wing & Doctoral Studies",
+      "coordinates": {
+        "latitude": 31.252169,
+        "longitude": 75.70315
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [
+        "Block 37 (Library)",
+        "Block 25",
+        "Lovely Bake Studio"
+      ],
+      "osm_way_id": 422437898,
+      "floors": 10,
+      "primary_occupants": [
+        "Research Scholars Wing & Doctoral Studies"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_55",
+      "name": "Block 55(School of Mechanical Engineering)",
+      "block_number": "55",
+      "category": "Academic Blocks",
+      "subcategory": "Civil Engineering & Environmental Sciences",
+      "coordinates": {
+        "latitude": 31.247159,
+        "longitude": 75.703509
+      },
+      "geographical_area": "South Campus",
+      "nearby_landmarks": [
+        "Block 56",
+        "N.K Food Court",
+        "BH-6"
+      ],
+      "osm_way_id": 422437890,
+      "floors": 6,
+      "primary_occupants": [
+        "Civil Engineering & Environmental Sciences"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_56",
+      "name": "Block 56",
+      "block_number": "56",
+      "category": "Academic Blocks",
+      "subcategory": "Mechanical & Mechatronics Workshops",
+      "coordinates": {
+        "latitude": 31.245893,
+        "longitude": 75.703842
+      },
+      "geographical_area": "South Campus",
+      "nearby_landmarks": [
+        "N.K Food Court",
+        "Block 55",
+        "Block 57"
+      ],
+      "osm_way_id": null,
+      "floors": 6,
+      "primary_occupants": [
+        "Mechanical & Mechatronics Workshops"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_57",
+      "name": "Block 57 (School of Agriculture)",
+      "block_number": "57",
+      "category": "Academic Blocks",
+      "subcategory": "ICAR-Accredited School of Agriculture",
+      "coordinates": {
+        "latitude": 31.246251,
+        "longitude": 75.703595
+      },
+      "geographical_area": "Far-South Campus",
+      "nearby_landmarks": [
+        "Agricultural Research Fields",
+        "Polyhouses",
+        "Gurudwara Rd",
+        "Gate 4"
+      ],
+      "osm_way_id": null,
+      "floors": 5,
+      "primary_occupants": [
+        "ICAR-Accredited School of Agriculture"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_58",
+      "name": "Block 58 (School of Bio-Engineering)",
+      "block_number": "58",
+      "category": "Academic Blocks",
+      "subcategory": "Biotechnology, Genetics & Food Technology",
+      "coordinates": {
+        "latitude": 31.246714,
+        "longitude": 75.703788
+      },
+      "geographical_area": "South Campus",
+      "nearby_landmarks": [
+        "Block 57",
+        "BH-6",
+        "BH-5"
+      ],
+      "osm_way_id": null,
+      "floors": 6,
+      "primary_occupants": [
+        "Biotechnology, Genetics & Food Technology"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172852737",
+      "name": "Boys Apartment",
+      "block_number": "LOC_1795172852737",
+      "category": "Boys Hostels",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.251832,
+        "longitude": 75.701863
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Boys Hostels"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172677891",
+      "name": "Bus Stop",
+      "block_number": "LOC_1795172677891",
+      "category": "Other Landmark",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.254588,
+        "longitude": 75.703955
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Other Landmark"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172688341",
+      "name": "Bus Stop",
+      "block_number": "LOC_1795172688341",
+      "category": "Other Landmark",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.2554,
+        "longitude": 75.701047
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Other Landmark"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172824170",
+      "name": "Buzzing Cafeteria",
+      "block_number": "LOC_1795172824170",
+      "category": "Food Courts & Dining",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.25224,
+        "longitude": 75.701841
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Food Courts & Dining"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795169559947",
+      "name": "CC",
+      "block_number": "LOC_1795169559947",
+      "category": "Academic Blocks",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.257688,
+        "longitude": 75.70779
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Academic Blocks"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795167876281",
+      "name": "Car Entry/Exit",
+      "block_number": "LOC_1795167876281",
+      "category": "Academic Blocks",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.26074,
+        "longitude": 75.706961
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Academic Blocks"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "PARK_CENTRAL_LAWN",
+      "name": "Central Campus Promenade Lawn",
+      "block_number": "PARK_CENTRAL_LAWN",
+      "category": "Parks & Gardens",
+      "subcategory": "Landscaped Median & Open Promenade",
+      "coordinates": {
+        "latitude": 31.25213,
+        "longitude": 75.704234
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [
+        "LPU Open Audi Rd",
+        "Central Library",
+        "Shanti Devi Mittal Auditorium"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Landscaped Median & Open Promenade"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795169607180",
+      "name": "Dildo Park",
+      "block_number": "LOC_1795169607180",
+      "category": "Academic Blocks",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.257982,
+        "longitude": 75.707366
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Academic Blocks"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_30",
+      "name": "Division of Admissions (Block 30)",
+      "block_number": "30",
+      "category": "Academic Blocks",
+      "subcategory": "Central Admissions & Student Induction",
+      "coordinates": {
+        "latitude": 31.252579,
+        "longitude": 75.704808
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [
+        "The Chancellory",
+        "Block 31",
+        "Central Campus Lawn"
+      ],
+      "osm_way_id": 422437900,
+      "floors": 10,
+      "primary_occupants": [
+        "Central Admissions & Student Induction"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_13",
+      "name": "Division of Student Affairs (DSW)",
+      "block_number": "13",
+      "category": "Academic Blocks",
+      "subcategory": "Student Utility & Services",
+      "coordinates": {
+        "latitude": 31.255065,
+        "longitude": 75.706127
+      },
+      "geographical_area": "Central Student Hub",
+      "nearby_landmarks": [
+        "Uni-Mall",
+        "Block 14",
+        "Security Office"
+      ],
+      "osm_way_id": null,
+      "floors": 6,
+      "primary_occupants": [
+        "Student Utility & Services"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172753457",
+      "name": "Food Court(Department of Computer",
+      "block_number": "LOC_1795172753457",
+      "category": "Auditorium",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.250685,
+        "longitude": 75.704706
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Auditorium"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "GH_01",
+      "name": "GH-1",
+      "block_number": "01",
+      "category": "Girls Hostels",
+      "subcategory": "Undergraduate Girls Residential Enclave",
+      "coordinates": {
+        "latitude": 31.256794,
+        "longitude": 75.704722
+      },
+      "geographical_area": "East-Central Girls Residential Compound",
+      "nearby_landmarks": [
+        "GH-2",
+        "Ayushya Vatika",
+        "Uni Hospital",
+        "Uni-Mall Security Gate"
+      ],
+      "osm_way_id": 422437887,
+      "floors": 10,
+      "primary_occupants": [
+        "Undergraduate Girls Residential Enclave"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "GH_02",
+      "name": "GH-2",
+      "block_number": "02",
+      "category": "Girls Hostels",
+      "subcategory": "Undergraduate Girls Residential Enclave",
+      "coordinates": {
+        "latitude": 31.256968,
+        "longitude": 75.705607
+      },
+      "geographical_area": "East-Central Girls Residential Compound",
+      "nearby_landmarks": [
+        "GH-1",
+        "GS-1",
+        "Ayushya Vatika",
+        "Security Office"
+      ],
+      "osm_way_id": 422437888,
+      "floors": 10,
+      "primary_occupants": [
+        "Undergraduate Girls Residential Enclave"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "GS_03",
+      "name": "GH-3",
+      "block_number": "03",
+      "category": "Girls Studios",
+      "subcategory": "Premium Air-Conditioned Girls Studio Apartment",
+      "coordinates": {
+        "latitude": 31.256193,
+        "longitude": 75.704228
+      },
+      "geographical_area": "East-Central Girls Residential Compound",
+      "nearby_landmarks": [
+        "GS-2",
+        "GS-4",
+        "Security Office"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Premium Air-Conditioned Girls Studio Apartment"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "GS_04",
+      "name": "GH-4",
+      "block_number": "04",
+      "category": "Girls Studios",
+      "subcategory": "Premium Air-Conditioned Girls Studio Apartment",
+      "coordinates": {
+        "latitude": 31.25639,
+        "longitude": 75.705505
+      },
+      "geographical_area": "East-Central Girls Residential Compound",
+      "nearby_landmarks": [
+        "GS-3",
+        "Uni-Mall Northern Parking"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Premium Air-Conditioned Girls Studio Apartment"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BOYS_APARTMENTS",
+      "name": "GH-5",
+      "block_number": "BOYS_APARTMENTS",
+      "category": "Apartments & Staff Residences",
+      "subcategory": "Senior Student & Research Scholar Apartments",
+      "coordinates": {
+        "latitude": 31.253937,
+        "longitude": 75.700876
+      },
+      "geographical_area": "West Campus Corridor",
+      "nearby_landmarks": [
+        "Law Gate Rd",
+        "BS-11",
+        "BH-1"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Senior Student & Research Scholar Apartments"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172798154",
+      "name": "GH-7",
+      "block_number": "LOC_1795172798154",
+      "category": "Girls Hostels",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.251419,
+        "longitude": 75.702528
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Girls Hostels"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795168524613",
+      "name": "GS-11",
+      "block_number": "LOC_1795168524613",
+      "category": "Academic Blocks",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.257495,
+        "longitude": 75.704749
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Academic Blocks"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172283752",
+      "name": "GS-12",
+      "block_number": "LOC_1795172283752",
+      "category": "Girls Studios",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.257771,
+        "longitude": 75.704746
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Girls Studios"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "GATE_04_SOUTH",
+      "name": "Gate 4 (South Perimeter)",
+      "block_number": "GATE_04_SOUTH",
+      "category": "Campus Gates",
+      "subcategory": "Southern Agricultural & Service Gate",
+      "coordinates": {
+        "latitude": 31.245755,
+        "longitude": 75.701616
+      },
+      "geographical_area": "Far-South Perimeter",
+      "nearby_landmarks": [
+        "School of Agriculture (Block 57)",
+        "LPU Dairy Farm",
+        "Gurudwara Rd"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Southern Agricultural & Service Gate"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172151939",
+      "name": "Golf Cart Stop",
+      "block_number": "LOC_1795172151939",
+      "category": "Other Landmark",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.258484,
+        "longitude": 75.707364
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Other Landmark"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172973480",
+      "name": "Golf Cart Stop (BH-2)",
+      "block_number": "LOC_1795172973480",
+      "category": "Other Landmark",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.248947,
+        "longitude": 75.700849
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Other Landmark"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "GATE_GREEN_VALLEY",
+      "name": "Green Valley Gate",
+      "block_number": "GATE_GREEN_VALLEY",
+      "category": "Campus Gates",
+      "subcategory": "South-West Residential Gate",
+      "coordinates": {
+        "latitude": 31.251598,
+        "longitude": 75.696364
+      },
+      "geographical_area": "South-West Perimeter",
+      "nearby_landmarks": [
+        "Green Valley Colony",
+        "Cricket Ground",
+        "BH-4"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "South-West Residential Gate"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_19",
+      "name": "Helipad",
+      "block_number": "19",
+      "category": "Academic Blocks",
+      "subcategory": "Applied Arts & Sciences",
+      "coordinates": {
+        "latitude": 31.254253,
+        "longitude": 75.702984
+      },
+      "geographical_area": "Central Spine",
+      "nearby_landmarks": [
+        "Unipolis",
+        "Block 14",
+        "Block 25"
+      ],
+      "osm_way_id": null,
+      "floors": 6,
+      "primary_occupants": [
+        "Applied Arts & Sciences"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795165083230",
+      "name": "Hostel Entry/Exit",
+      "block_number": "LOC_1795165083230",
+      "category": "Academic Blocks",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.260419,
+        "longitude": 75.707442
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Academic Blocks"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172727256",
+      "name": "Innovation Studio",
+      "block_number": "LOC_1795172727256",
+      "category": "Auditorium",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.251048,
+        "longitude": 75.70572
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Auditorium"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "SPORTS_CRICKET_GROUND",
+      "name": "LPU Cricket Ground",
+      "block_number": "SPORTS_CRICKET_GROUND",
+      "category": "Sports & Arenas",
+      "subcategory": "BCCI-Standard Cricket Stadium & Pavilion",
+      "coordinates": {
+        "latitude": 31.247737,
+        "longitude": 75.700355
+      },
+      "geographical_area": "South-West Athletics Sector",
+      "nearby_landmarks": [
+        "BH-3",
+        "BH-4",
+        "Indoor Stadium",
+        "Green Valley Gate"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "BCCI-Standard Cricket Stadium & Pavilion"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172079575",
+      "name": "LPU Main Gate Parking",
+      "block_number": "LOC_1795172079575",
+      "category": "Parks & Gardens",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.259775,
+        "longitude": 75.706224
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Parks & Gardens"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172576094",
+      "name": "Law Gate",
+      "block_number": "LOC_1795172576094",
+      "category": "Other Landmark",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.254946,
+        "longitude": 75.700272
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Other Landmark"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "FOOD_BAKE_STUDIO",
+      "name": "Lovely Bake Studio",
+      "block_number": "FOOD_BAKE_STUDIO",
+      "category": "Food Courts & Dining",
+      "subcategory": "Artisanal Bakery & Cafe",
+      "coordinates": {
+        "latitude": 31.251504,
+        "longitude": 75.701973
+      },
+      "geographical_area": "Central Academic Spine (S Mess Rd)",
+      "nearby_landmarks": [
+        "Block 38",
+        "Block 25",
+        "S Mess Rd"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Artisanal Bakery & Cafe"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172119524",
+      "name": "Lovely Professional University Main Gate",
+      "block_number": "LOC_1795172119524",
+      "category": "Other Landmark",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.260611,
+        "longitude": 75.707195
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Other Landmark"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "FOOD_MAIN_COURT",
+      "name": "Main Food Court (West Campus)",
+      "block_number": "FOOD_MAIN_COURT",
+      "category": "Food Courts & Dining",
+      "subcategory": "Central Student Dining & Multi-Cuisine Food Court",
+      "coordinates": {
+        "latitude": 31.250612,
+        "longitude": 75.700173
+      },
+      "geographical_area": "South-West Residential Sector",
+      "nearby_landmarks": [
+        "BH-2",
+        "Basketball Courts",
+        "Indoor Stadium"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Central Student Dining & Multi-Cuisine Food Court"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_14",
+      "name": "Mittal School of Business (MSB)",
+      "block_number": "14",
+      "category": "Academic Blocks",
+      "subcategory": "Division of Student Welfare (DSW)",
+      "coordinates": {
+        "latitude": 31.254561,
+        "longitude": 75.705714
+      },
+      "geographical_area": "Central Promenade",
+      "nearby_landmarks": [
+        "Uni-Mall",
+        "Unipolis",
+        "Block 18"
+      ],
+      "osm_way_id": null,
+      "floors": 6,
+      "primary_occupants": [
+        "Division of Student Welfare (DSW)"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "FOOD_NK_COURT",
+      "name": "N.K Food Court",
+      "block_number": "FOOD_NK_COURT",
+      "category": "Food Courts & Dining",
+      "subcategory": "South Campus Restaurant & Dining Hall",
+      "coordinates": {
+        "latitude": 31.247484,
+        "longitude": 75.705011
+      },
+      "geographical_area": "South Campus (Block 56)",
+      "nearby_landmarks": [
+        "Block 56",
+        "Block 57 (School of Agriculture)",
+        "BH-6"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "South Campus Restaurant & Dining Hall"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172931333",
+      "name": "Open Ground",
+      "block_number": "LOC_1795172931333",
+      "category": "Other Landmark",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.249869,
+        "longitude": 75.702694
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Other Landmark"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172228721",
+      "name": "Park",
+      "block_number": "LOC_1795172228721",
+      "category": "Parks & Gardens",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.25733,
+        "longitude": 75.707096
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Parks & Gardens"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172631561",
+      "name": "Park(Department of Physical Education)",
+      "block_number": "LOC_1795172631561",
+      "category": "Other Landmark",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.255267,
+        "longitude": 75.702367
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Other Landmark"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172906268",
+      "name": "Parking (BH-1)",
+      "block_number": "LOC_1795172906268",
+      "category": "Boys Hostels",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.251818,
+        "longitude": 75.700355
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Boys Hostels"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795169516680",
+      "name": "Pharmacy",
+      "block_number": "LOC_1795169516680",
+      "category": "Academic Blocks",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.257622,
+        "longitude": 75.707543
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Academic Blocks"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "PARK_ROBO_PARK",
+      "name": "Robo Park",
+      "block_number": "PARK_ROBO_PARK",
+      "category": "Parks & Gardens",
+      "subcategory": "Engineering Display & Outdoor Robotics Arena",
+      "coordinates": {
+        "latitude": 31.253419,
+        "longitude": 75.70322
+      },
+      "geographical_area": "West-Central Spine",
+      "nearby_landmarks": [
+        "Helipad",
+        "Block 18",
+        "Block 25"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Engineering Display & Outdoor Robotics Arena"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172260169",
+      "name": "School of Architecture",
+      "block_number": "LOC_1795172260169",
+      "category": "Academic Blocks",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.256725,
+        "longitude": 75.707096
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Academic Blocks"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_01",
+      "name": "School of Fashion Design",
+      "block_number": "01",
+      "category": "Academic Blocks",
+      "subcategory": "Administrative & Academic Affairs",
+      "coordinates": {
+        "latitude": 31.25866,
+        "longitude": 75.708885
+      },
+      "geographical_area": "North Campus (Inside Gate 1)",
+      "nearby_landmarks": [
+        "Gate 1",
+        "Block 2",
+        "Uni Hospital"
+      ],
+      "osm_way_id": 354743583,
+      "floors": 5,
+      "primary_occupants": [
+        "Administrative & Academic Affairs"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172549645",
+      "name": "School of Law",
+      "block_number": "LOC_1795172549645",
+      "category": "Academic Blocks",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.254799,
+        "longitude": 75.701369
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Academic Blocks"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172343717",
+      "name": "School of Multimedia",
+      "block_number": "LOC_1795172343717",
+      "category": "Academic Blocks",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.256409,
+        "longitude": 75.706723
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Academic Blocks"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_18",
+      "name": "School of Physical Education ",
+      "block_number": "18",
+      "category": "Academic Blocks",
+      "subcategory": "Humanities, Education & Film Production",
+      "coordinates": {
+        "latitude": 31.25529,
+        "longitude": 75.703375
+      },
+      "geographical_area": "West-Central Academic Corridor",
+      "nearby_landmarks": [
+        "Helipad",
+        "Robo Park",
+        "Block 14"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Humanities, Education & Film Production"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172312734",
+      "name": "Security Office",
+      "block_number": "LOC_1795172312734",
+      "category": "Other Landmark",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.256819,
+        "longitude": 75.705918
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Other Landmark"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_02",
+      "name": "Sh.Baldevraj Mittal Auditorium",
+      "block_number": "02",
+      "category": "Academic Blocks",
+      "subcategory": "Academic Wing & Student Dining Hub",
+      "coordinates": {
+        "latitude": 31.258339,
+        "longitude": 75.707949
+      },
+      "geographical_area": "North Campus",
+      "nearby_landmarks": [
+        "Block 1",
+        "Uni Hospital",
+        "BSS Cafe"
+      ],
+      "osm_way_id": null,
+      "floors": 5,
+      "primary_occupants": [
+        "Academic Wing & Student Dining Hub"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "AUDI_SHANTI_DEVI",
+      "name": "Shanti Devi Mittal Auditorium",
+      "block_number": "AUDI_SHANTI_DEVI",
+      "category": "Sports & Arenas",
+      "subcategory": "Indoor Performing Arts & Conference Hall",
+      "coordinates": {
+        "latitude": 31.252235,
+        "longitude": 75.703622
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [
+        "Block 27",
+        "Block 28",
+        "Block 37 (Central Library)",
+        "LPU Open Audi Rd"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Indoor Performing Arts & Conference Hall"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "SPORTS_INDOOR_STADIUM",
+      "name": "Shanti Devi Mittal Indoor Stadium & Swimming Pool Complex",
+      "block_number": "SPORTS_INDOOR_STADIUM",
+      "category": "Sports & Arenas",
+      "subcategory": "Olympic Sports Complex, Indoor Courts & Heated Pool",
+      "coordinates": {
+        "latitude": 31.2507,
+        "longitude": 75.7015
+      },
+      "geographical_area": "South-West Athletics Sector",
+      "nearby_landmarks": [
+        "XL Arena",
+        "BH-2",
+        "Basketball Courts",
+        "Cricket Ground"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Olympic Sports Complex, Indoor Courts & Heated Pool"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172510564",
+      "name": "Spider Park",
+      "block_number": "LOC_1795172510564",
+      "category": "Parks & Gardens",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.253955,
+        "longitude": 75.705677
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Parks & Gardens"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172869402",
+      "name": "Staff Residence",
+      "block_number": "LOC_1795172869402",
+      "category": "Boys Hostels",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.251859,
+        "longitude": 75.701181
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Boys Hostels"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "BLOCK_29",
+      "name": "The Chancellory (Block 29)",
+      "block_number": "29",
+      "category": "Academic Blocks",
+      "subcategory": "University Headquarters & Central Administration",
+      "coordinates": {
+        "latitude": 31.252777,
+        "longitude": 75.70418
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [
+        "Division of Admissions",
+        "Block 28",
+        "Block 32"
+      ],
+      "osm_way_id": 422437901,
+      "floors": 8,
+      "primary_occupants": [
+        "University Headquarters & Central Administration"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "MED_UNI_HOSPITAL",
+      "name": "Uni Hospital (Shri Baldev Raj Mittal Hospital)",
+      "block_number": "MED_UNI_HOSPITAL",
+      "category": "Medical Facilities",
+      "subcategory": "24/7 Multispecialty Campus Hospital & Emergency Center",
+      "coordinates": {
+        "latitude": 31.258101,
+        "longitude": 75.706927
+      },
+      "geographical_area": "North Campus (Inside Gate 1)",
+      "nearby_landmarks": [
+        "Block 1",
+        "Block 2",
+        "Gate 1",
+        "Uni Health Center"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "24/7 Multispecialty Campus Hospital & Emergency Center"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "FOOD_UNI_MALL",
+      "name": "Uni-Mall ",
+      "block_number": "FOOD_UNI_MALL",
+      "category": "Food Courts & Dining",
+      "subcategory": "Multi-Brand Indoor Food Court",
+      "coordinates": {
+        "latitude": 31.255748,
+        "longitude": 75.705537
+      },
+      "geographical_area": "Central Student Hub (Uni-Mall Level 3)",
+      "nearby_landmarks": [
+        "Uni-Mall",
+        "Baldev Raj Mittal Unipolis"
+      ],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Multi-Brand Indoor Food Court"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795173008263",
+      "name": "Volleyball Court",
+      "block_number": "LOC_1795173008263",
+      "category": "Other Landmark",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.248071,
+        "longitude": 75.701911
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Other Landmark"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    },
+    {
+      "id": "LOC_1795172946792",
+      "name": "XL Arena",
+      "block_number": "LOC_1795172946792",
+      "category": "Other Landmark",
+      "subcategory": "",
+      "coordinates": {
+        "latitude": 31.25003,
+        "longitude": 75.701439
+      },
+      "geographical_area": "Central Academic Spine",
+      "nearby_landmarks": [],
+      "osm_way_id": null,
+      "floors": 4,
+      "primary_occupants": [
+        "Other Landmark"
+      ],
+      "indoor_mapping_status": "requires_manual_mapping",
+      "source": "Google Maps & Admin Map Editor Ground Truth"
+    }
+  ]
+}

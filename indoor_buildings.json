@@ -1,0 +1,1978 @@
+{
+  "project": "LPU SMART WAYFINDER",
+  "dataset": "Indoor Buildings Architecture & Layout Status",
+  "university": "Lovely Professional University, Phagwara, Punjab, India",
+  "total_buildings_audited": 43,
+  "buildings_with_verified_public_indoor_data": 0,
+  "buildings_requiring_manual_mapping": 43,
+  "summary_statement": "In strict compliance with academic rigor and data integrity protocols, zero fictional floor plans have been fabricated. All 43 audited buildings currently require manual mapping or administrative blueprint acquisition, as LPU internal architectural CAD drawings are proprietary and restricted.",
+  "indoor_buildings": [
+    {
+      "building_id": "BLOCK_01",
+      "block_number": "1",
+      "building_name": "Block 1",
+      "category": "Administrative & Academic",
+      "total_floors": 5,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Critical",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "1-[Floor][RoomIndex] (e.g., 1-101, 1-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_02",
+      "block_number": "2",
+      "building_name": "Block 2",
+      "category": "Academic & Student Life",
+      "total_floors": 5,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "2-[Floor][RoomIndex] (e.g., 2-101, 2-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_03",
+      "block_number": "3",
+      "building_name": "Block 3",
+      "category": "Health & Academic",
+      "total_floors": 5,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "High",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "3-[Floor][RoomIndex] (e.g., 3-101, 3-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_04",
+      "block_number": "4",
+      "building_name": "Block 4",
+      "category": "Academic",
+      "total_floors": 5,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "4-[Floor][RoomIndex] (e.g., 4-101, 4-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_13",
+      "block_number": "13",
+      "building_name": "Block 13",
+      "category": "Administrative & Student Welfare",
+      "total_floors": 6,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Critical",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "13-[Floor][RoomIndex] (e.g., 13-101, 13-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_14",
+      "block_number": "14",
+      "building_name": "Block 14",
+      "category": "Student Welfare & Activity",
+      "total_floors": 6,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "14-[Floor][RoomIndex] (e.g., 14-101, 14-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_15",
+      "block_number": "15",
+      "building_name": "Uni-Mall",
+      "category": "Commercial & Student Utility",
+      "total_floors": 4,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Critical",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "15-[Floor][RoomIndex] (e.g., 15-101, 15-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_19",
+      "block_number": "19",
+      "building_name": "Block 19",
+      "category": "Academic",
+      "total_floors": 6,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "19-[Floor][RoomIndex] (e.g., 19-101, 19-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_25",
+      "block_number": "25",
+      "building_name": "Block 25",
+      "category": "Academic",
+      "total_floors": 8,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "25-[Floor][RoomIndex] (e.g., 25-101, 25-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_26",
+      "block_number": "26",
+      "building_name": "Block 26",
+      "category": "Academic",
+      "total_floors": 8,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "26-[Floor][RoomIndex] (e.g., 26-101, 26-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_27",
+      "block_number": "27",
+      "building_name": "Block 27",
+      "category": "Academic",
+      "total_floors": 8,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "27-[Floor][RoomIndex] (e.g., 27-101, 27-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_28",
+      "block_number": "28",
+      "building_name": "Block 28",
+      "category": "Academic",
+      "total_floors": 8,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "28-[Floor][RoomIndex] (e.g., 28-101, 28-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_29",
+      "block_number": "29",
+      "building_name": "Block 29",
+      "category": "Administrative & Academic",
+      "total_floors": 8,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Critical",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "29-[Floor][RoomIndex] (e.g., 29-101, 29-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_30",
+      "block_number": "30",
+      "building_name": "Block 30",
+      "category": "Academic",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "30-[Floor][RoomIndex] (e.g., 30-101, 30-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_31",
+      "block_number": "31",
+      "building_name": "Block 31",
+      "category": "Academic",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "31-[Floor][RoomIndex] (e.g., 31-101, 31-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_32",
+      "block_number": "32",
+      "building_name": "Block 32",
+      "category": "Academic",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Critical",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "32-[Floor][RoomIndex] (e.g., 32-101, 32-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_33",
+      "block_number": "33",
+      "building_name": "Block 33",
+      "category": "Academic",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "33-[Floor][RoomIndex] (e.g., 33-101, 33-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_34",
+      "block_number": "34",
+      "building_name": "Block 34",
+      "category": "Academic & Research",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Critical",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "34-[Floor][RoomIndex] (e.g., 34-101, 34-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_35",
+      "block_number": "35",
+      "building_name": "Block 35",
+      "category": "Auditorium & Events",
+      "total_floors": 4,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "High",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "35-[Floor][RoomIndex] (e.g., 35-101, 35-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_36",
+      "block_number": "36",
+      "building_name": "Block 36",
+      "category": "Academic",
+      "total_floors": 7,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "High",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "36-[Floor][RoomIndex] (e.g., 36-101, 36-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_37",
+      "block_number": "37",
+      "building_name": "Central Library",
+      "category": "Library & Academic Resource",
+      "total_floors": 6,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Critical",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "37-[Floor][RoomIndex] (e.g., 37-101, 37-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_38",
+      "block_number": "38",
+      "building_name": "Block 38",
+      "category": "Academic & Research",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Critical",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "38-[Floor][RoomIndex] (e.g., 38-101, 38-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_55",
+      "block_number": "55",
+      "building_name": "Block 55",
+      "category": "Academic & Engineering",
+      "total_floors": 6,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "High",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "55-[Floor][RoomIndex] (e.g., 55-101, 55-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_56",
+      "block_number": "56",
+      "building_name": "Block 56",
+      "category": "Academic & Engineering",
+      "total_floors": 6,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "High",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "56-[Floor][RoomIndex] (e.g., 56-101, 56-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_57",
+      "block_number": "57",
+      "building_name": "Block 57",
+      "category": "Academic",
+      "total_floors": 5,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "57-[Floor][RoomIndex] (e.g., 57-101, 57-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_58",
+      "block_number": "58",
+      "building_name": "Block 58",
+      "category": "Academic & Research",
+      "total_floors": 6,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "58-[Floor][RoomIndex] (e.g., 58-101, 58-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BLOCK_DESIGN",
+      "block_number": "Design",
+      "building_name": "Block Design",
+      "category": "Academic",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "High",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "Design-[Floor][RoomIndex] (e.g., Design-101, Design-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "UNIPOLIS",
+      "block_number": "Unipolis",
+      "building_name": "Baldev Raj Mittal Unipolis",
+      "category": "Mega Auditorium & Stadium",
+      "total_floors": 2,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "High",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "Unipolis-[Floor][RoomIndex] (e.g., Unipolis-101, Unipolis-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "SPORTS_COMPLEX",
+      "block_number": "Sports",
+      "building_name": "Shanti Devi Mittal Indoor Stadium",
+      "category": "Sports & Recreation",
+      "total_floors": 3,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "High",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "Sports-[Floor][RoomIndex] (e.g., Sports-101, Sports-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BH_01",
+      "block_number": "BH-1",
+      "building_name": "BH-1",
+      "category": "Residential / Hostel",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "High",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "BH-1-[Floor][RoomIndex] (e.g., BH-1-101, BH-1-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BH_02",
+      "block_number": "BH-2",
+      "building_name": "BH-2",
+      "category": "Residential / Hostel",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "High",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "BH-2-[Floor][RoomIndex] (e.g., BH-2-101, BH-2-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BH_03",
+      "block_number": "BH-3",
+      "building_name": "BH-3",
+      "category": "Residential / Hostel",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "High",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "BH-3-[Floor][RoomIndex] (e.g., BH-3-101, BH-3-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BH_04",
+      "block_number": "BH-4",
+      "building_name": "BH-4",
+      "category": "Residential / Hostel",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "High",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "BH-4-[Floor][RoomIndex] (e.g., BH-4-101, BH-4-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BH_05",
+      "block_number": "BH-5",
+      "building_name": "BH-5",
+      "category": "Residential / Hostel",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "BH-5-[Floor][RoomIndex] (e.g., BH-5-101, BH-5-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BH_06",
+      "block_number": "BH-6",
+      "building_name": "BH-6",
+      "category": "Residential / Hostel",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "BH-6-[Floor][RoomIndex] (e.g., BH-6-101, BH-6-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BH_07",
+      "block_number": "BH-7",
+      "building_name": "BH-7",
+      "category": "Residential / Hostel",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "BH-7-[Floor][RoomIndex] (e.g., BH-7-101, BH-7-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "BH_08",
+      "block_number": "BH-8",
+      "building_name": "BH-8",
+      "category": "Residential / Hostel",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "BH-8-[Floor][RoomIndex] (e.g., BH-8-101, BH-8-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "GH_01",
+      "block_number": "GH-1",
+      "building_name": "GH-1",
+      "category": "Residential / Hostel",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "High",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "GH-1-[Floor][RoomIndex] (e.g., GH-1-101, GH-1-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "GH_02",
+      "block_number": "GH-2",
+      "building_name": "GH-2",
+      "category": "Residential / Hostel",
+      "total_floors": 10,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "High",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8",
+        "Floor 9"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "GH-2-[Floor][RoomIndex] (e.g., GH-2-101, GH-2-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "GH_03",
+      "block_number": "GH-3",
+      "building_name": "GH-3",
+      "category": "Residential / Hostel",
+      "total_floors": 9,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "GH-3-[Floor][RoomIndex] (e.g., GH-3-101, GH-3-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "GH_04",
+      "block_number": "GH-4",
+      "building_name": "GH-4",
+      "category": "Residential / Hostel",
+      "total_floors": 9,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "GH-4-[Floor][RoomIndex] (e.g., GH-4-101, GH-4-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "GH_05",
+      "block_number": "GH-5",
+      "building_name": "GH-5",
+      "category": "Residential / Hostel",
+      "total_floors": 9,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "GH-5-[Floor][RoomIndex] (e.g., GH-5-101, GH-5-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    },
+    {
+      "building_id": "GH_06",
+      "block_number": "GH-6",
+      "building_name": "GH-6",
+      "category": "Residential / Hostel",
+      "total_floors": 9,
+      "verified_indoor_layout_available": false,
+      "mapping_status": "requires_manual_mapping",
+      "indoor_mapping_priority": "Standard",
+      "floors_missing_accurate_layouts": [
+        "Ground Floor (Floor 0)",
+        "Floor 1",
+        "Floor 2",
+        "Floor 3",
+        "Floor 4",
+        "Floor 5",
+        "Floor 6",
+        "Floor 7",
+        "Floor 8"
+      ],
+      "public_data_availability": {
+        "architectural_cad_drawings": "Unavailable (Restricted institutional asset)",
+        "official_floor_plans_pdf": "Unavailable (Internal UMS / Security clearance only)",
+        "emergency_evacuation_maps": "Physical signage present on-site; digital vector files unavailable",
+        "room_level_coordinates": "Unavailable"
+      },
+      "known_architectural_pattern": {
+        "room_numbering_syntax": "GH-6-[Floor][RoomIndex] (e.g., GH-6-101, GH-6-204)",
+        "typical_layout_composition": "Central or double-loaded spine corridor flanked by classrooms, tutorial halls, and faculty cubicles",
+        "estimated_rooms_per_floor": "12 to 16 rooms / laboratories per standard academic floor",
+        "vertical_circulation": "Central staircase and elevator core, with secondary emergency fire stairs at wing ends",
+        "utilities": "Restrooms and drinking water stations positioned adjacent to vertical stairwell cores"
+      },
+      "missing_elements": [
+        "Exact interior corridor polygon and centerline navigation network",
+        "Precise boundaries and coordinates for all classrooms, laboratories, and lecture theatres",
+        "Exact locations and dimensions of faculty cabins and administrative offices",
+        "Georeferenced positions of staircase landings, steps, and handrails",
+        "Georeferenced positions of elevator doors, call buttons, and operational status",
+        "Accessible ramp slopes, widths, and universal accessibility features",
+        "Ground-floor entrance and emergency fire exit door thresholds and swing directions",
+        "Restroom interior layouts and accessible toilet locations",
+        "Indoor Wi-Fi AP / BLE beacon survey for indoor positioning system (IPS)"
+      ],
+      "recommended_mapping_approach": "Field survey with laser rangefinder/LiDAR mobile scanning, physical validation of room signage, or formal collaboration with LPU Division of Campus Development for authorized CAD drawings.",
+      "source_reference": "LPU Campus Infrastructure Research, verified public documentation, and UMS room numbering system"
+    }
+  ]
+}
